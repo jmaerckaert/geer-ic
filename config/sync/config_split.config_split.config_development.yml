@@ -8,6 +8,7 @@ folder: ../config/dev
 module:
   devel: 0
   webform_devel: 0
+  webprofiler: 0
 theme: {  }
 blacklist: {  }
 graylist: {  }

@@ -1,0 +1,22 @@
+uuid: acde681f-7d8a-4e5a-93e2-1cfcb3f65ea2
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - icgeer
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: icgeer_local_tasks
+theme: icgeer
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

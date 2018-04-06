@@ -1,0 +1,22 @@
+uuid: 55d119bd-ff69-4af7-b21b-dfd8d30c5c59
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - icgeer
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: icgeer_breadcrumbs
+theme: icgeer
+region: navigation
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

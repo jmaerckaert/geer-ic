@@ -1,0 +1,22 @@
+uuid: 705594a8-59c9-43d8-a895-cf4b5c0dc283
+langcode: fr
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - icgeer
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: icgeer_search
+theme: icgeer
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

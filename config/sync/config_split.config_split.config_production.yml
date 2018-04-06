@@ -1,0 +1,15 @@
+uuid: 1fe0eec9-50fc-4831-ba79-5fbe7ba28e0e
+langcode: fr
+status: true
+dependencies: {  }
+id: config_production
+label: Production
+folder: ../config/prod
+module: {  }
+theme: {  }
+blacklist: {  }
+graylist:
+  - system.performance
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

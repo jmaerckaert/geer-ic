@@ -7,11 +7,13 @@ label: Development
 folder: ../config/dev
 module:
   devel: 0
+  ds_devel: 0
   webform_devel: 0
   webprofiler: 0
 theme: {  }
 blacklist: {  }
-graylist: {  }
+graylist:
+  - system.performance
 graylist_dependents: true
 graylist_skip_equal: true
 weight: 0

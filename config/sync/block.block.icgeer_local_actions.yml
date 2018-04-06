@@ -1,0 +1,20 @@
+uuid: a492c11b-30cd-4da8-b8d0-6e7892a06714
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - icgeer
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: icgeer_local_actions
+theme: icgeer
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

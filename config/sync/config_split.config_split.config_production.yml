@@ -7,9 +7,9 @@ label: Production
 folder: ../config/prod
 module: {  }
 theme: {  }
-blacklist: {  }
-graylist:
+blacklist:
   - system.performance
+graylist: {  }
 graylist_dependents: true
 graylist_skip_equal: true
 weight: 0

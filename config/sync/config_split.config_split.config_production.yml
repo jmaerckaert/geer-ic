@@ -8,6 +8,7 @@ folder: ../config/prod
 module: {  }
 theme: {  }
 blacklist:
+  - system.file
   - system.performance
 graylist: {  }
 graylist_dependents: true

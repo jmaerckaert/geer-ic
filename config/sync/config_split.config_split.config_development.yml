@@ -11,9 +11,10 @@ module:
   webform_devel: 0
   webprofiler: 0
 theme: {  }
-blacklist: {  }
-graylist:
+blacklist:
+  - system.file
   - system.performance
+graylist: {  }
 graylist_dependents: true
 graylist_skip_equal: true
 weight: 0

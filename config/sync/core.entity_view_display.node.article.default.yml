@@ -12,9 +12,36 @@ dependencies:
     - node.type.article
   module:
     - comment
+    - ds
     - image
     - text
     - user
+third_party_settings:
+  ds:
+    layout:
+      id: bs_2col_stacked
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        classes: {  }
+        wrappers:
+          top: div
+          left: div
+          right: div
+          bottom: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+    regions:
+      top:
+        - field_image
+        - body
+        - langcode
+        - field_tags
+        - links
+        - comment
 _core:
   default_config_hash: ChmU3AVqDKU32A_fyChG0W9dTRKmVBR58B6OClCLvZI
 id: node.article.default

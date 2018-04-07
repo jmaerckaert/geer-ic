@@ -11,6 +11,8 @@ placeholder_text_single: 'Choose an option'
 no_results_text: 'No results match'
 disabled_themes:
   bartik: bartik
+  bootstrap: bootstrap
+  icgeer: icgeer
   seven: '0'
 chosen_include: 2
 _core:

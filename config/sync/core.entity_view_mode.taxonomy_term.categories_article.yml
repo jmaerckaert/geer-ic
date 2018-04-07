@@ -1,0 +1,10 @@
+uuid: 704df173-35d9-4ab1-8ad2-d3b2240bd4b7
+langcode: fr
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.categories_article
+label: Categories_article
+targetEntityType: taxonomy_term
+cache: true

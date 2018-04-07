@@ -1,0 +1,10 @@
+uuid: 31ad1047-ee23-47e0-85d0-cce49a913485
+langcode: fr
+status: true
+dependencies:
+  module:
+    - media
+id: media.token
+label: 'Jeton (token)'
+targetEntityType: media
+cache: true

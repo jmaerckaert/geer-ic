@@ -79,7 +79,7 @@ settings:
   draft_loaded_message: ''
   confirmation_type: url_message
   confirmation_title: ''
-  confirmation_message: 'Your message has been sent.'
+  confirmation_message: 'Votre message a été envoyé.'
   confirmation_url: '<front>'
   confirmation_attributes: {  }
   confirmation_back: true
@@ -148,7 +148,7 @@ access:
 handlers:
   email_confirmation:
     id: email
-    label: 'Email confirmation'
+    label: 'Courriel de confirmation'
     handler_id: email_confirmation
     status: true
     conditions: {  }
@@ -164,7 +164,7 @@ handlers:
       bcc_options: {  }
       from_mail: default
       from_options: {  }
-      from_name: default
+      from_name: défaut
       subject: '[webform_submission:values:subject:raw]'
       body: '[webform_submission:values:message:value]'
       excluded_elements: {  }
@@ -180,7 +180,7 @@ handlers:
       sender_name: ''
   email_notification:
     id: email
-    label: 'Email notification'
+    label: 'Notification par courriel'
     handler_id: email_notification
     status: true
     conditions: {  }

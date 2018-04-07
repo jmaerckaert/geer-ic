@@ -1,0 +1,10 @@
+uuid: 373a1707-60c5-4318-9f90-a3f96a056d43
+langcode: fr
+status: true
+dependencies:
+  module:
+    - comment
+id: comment.token
+label: 'Jeton (token)'
+targetEntityType: comment
+cache: true

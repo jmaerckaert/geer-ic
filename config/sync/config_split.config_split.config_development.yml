@@ -12,6 +12,7 @@ module:
   webprofiler: 0
 theme: {  }
 blacklist:
+  - google_analytics.settings
   - system.file
   - system.performance
 graylist: {  }

@@ -1,0 +1,19 @@
+uuid: d5851ff4-291a-4e1e-bf7d-b0e91a02ff66
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_candidate_position
+    - node.type.candidate
+id: node.candidate.field_candidate_position
+field_name: field_candidate_position
+entity_type: node
+bundle: candidate
+label: 'Position sur la liste'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

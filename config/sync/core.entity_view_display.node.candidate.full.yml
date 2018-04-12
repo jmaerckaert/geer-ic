@@ -1,0 +1,138 @@
+uuid: bb7efb41-b8d2-4a7b-bdfe-ca76d192c75b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.candidate.body
+    - field.field.node.candidate.field_candidate_email
+    - field.field.node.candidate.field_candidate_lastname
+    - field.field.node.candidate.field_candidate_name
+    - field.field.node.candidate.field_candidate_photo
+    - field.field.node.candidate.field_candidate_position
+    - field.field.node.candidate.field_candidate_telephone
+    - node.type.candidate
+    - responsive_image.styles.narrow
+  module:
+    - ds
+    - responsive_image
+    - telephone
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: bs_2col_bricked
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        layout:
+          wrapper: div
+          classes:
+            row: row
+          add_layout_class: 1
+          attributes: ''
+        regions:
+          top:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+          top_left:
+            wrapper: div
+            classes:
+              col-sm-6: col-sm-6
+            add_region_classes: 1
+            attributes: ''
+          top_right:
+            wrapper: div
+            classes:
+              col-sm-6: col-sm-6
+            add_region_classes: 1
+            attributes: ''
+          middle:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+          bottom_left:
+            wrapper: div
+            classes:
+              col-sm-6: col-sm-6
+            add_region_classes: 1
+            attributes: ''
+          bottom_right:
+            wrapper: div
+            classes:
+              col-sm-6: col-sm-6
+            add_region_classes: 1
+            attributes: ''
+          bottom:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+    regions:
+      top_left:
+        - field_candidate_photo
+      top_right:
+        - field_candidate_position
+        - field_candidate_telephone
+        - field_candidate_email
+      middle:
+        - body
+id: node.candidate.full
+targetEntityType: node
+bundle: candidate
+mode: full
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    region: middle
+  field_candidate_email:
+    weight: 3
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: email_mailto
+    region: top_right
+  field_candidate_photo:
+    type: responsive_image
+    weight: 0
+    region: top_left
+    label: hidden
+    settings:
+      responsive_image_style: narrow
+      image_link: ''
+    third_party_settings: {  }
+  field_candidate_position:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: top_right
+  field_candidate_telephone:
+    weight: 2
+    label: inline
+    settings:
+      title: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+    type: telephone_link
+    region: top_right
+hidden:
+  field_candidate_lastname: true
+  field_candidate_name: true
+  langcode: true
+  links: true

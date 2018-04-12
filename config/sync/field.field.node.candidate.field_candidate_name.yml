@@ -1,0 +1,19 @@
+uuid: 6613bd52-7964-4f44-a256-72e42481e62f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_candidate_name
+    - node.type.candidate
+id: node.candidate.field_candidate_name
+field_name: field_candidate_name
+entity_type: node
+bundle: candidate
+label: Nom
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,7 @@
+status: '1'
+pattern: "[node:field_candidate_lastname:value] [node:field_candidate_name:value] \t"
+php: 0
+escape: 0
+dependencies:
+  config:
+    - node.type.candidate

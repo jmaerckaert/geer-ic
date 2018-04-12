@@ -1,0 +1,65 @@
+uuid: b636d192-0098-40d2-83cc-c53ca9023f2a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.slider
+    - field.field.node.candidate.body
+    - field.field.node.candidate.field_candidate_email
+    - field.field.node.candidate.field_candidate_lastname
+    - field.field.node.candidate.field_candidate_name
+    - field.field.node.candidate.field_candidate_photo
+    - field.field.node.candidate.field_candidate_position
+    - field.field.node.candidate.field_candidate_telephone
+    - node.type.candidate
+  module:
+    - ds
+    - responsive_image
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: bs_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        layout:
+          wrapper: div
+          classes:
+            row: row
+          add_layout_class: 1
+          attributes: ''
+        regions:
+          main:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+    regions:
+      main:
+        - field_candidate_photo
+id: node.candidate.slider
+targetEntityType: node
+bundle: candidate
+mode: slider
+content:
+  field_candidate_photo:
+    weight: 0
+    label: hidden
+    settings:
+      image_link: ''
+      responsive_image_style: ''
+    third_party_settings: {  }
+    type: responsive_image
+    region: main
+hidden:
+  body: true
+  field_candidate_email: true
+  field_candidate_lastname: true
+  field_candidate_name: true
+  field_candidate_position: true
+  field_candidate_telephone: true
+  langcode: true
+  links: true

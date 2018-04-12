@@ -1,0 +1,21 @@
+uuid: 7e314fd0-d1c5-40ec-ac73-fc921ddee7d8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_candidate_telephone
+    - node.type.candidate
+  module:
+    - telephone
+id: node.candidate.field_candidate_telephone
+field_name: field_candidate_telephone
+entity_type: node
+bundle: candidate
+label: Téléphone
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

@@ -1,0 +1,17 @@
+uuid: feb9e935-e910-469f-be51-28e52378b937
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Candidate
+type: candidate
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,21 @@
+uuid: dc728a9a-6474-4eb6-a50e-291fe9a4ad97
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_candidate_position
+field_name: field_candidate_position
+entity_type: node
+type: string
+settings:
+  max_length: 60
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

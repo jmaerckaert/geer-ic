@@ -1,0 +1,30 @@
+uuid: 72c6e5fe-ace6-4f88-8f56-c7c8f828f738
+langcode: fr
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_candidate_photo
+field_name: field_candidate_photo
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: 8df99e59-a21e-48d4-aae7-5e077bae49e3
+    alt: 'Photo par default pour le candidat'
+    title: 'Photo par default pour le candidat'
+    width: 320
+    height: 320
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

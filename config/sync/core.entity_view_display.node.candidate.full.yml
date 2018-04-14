@@ -72,23 +72,30 @@ third_party_settings:
         - field_candidate_statut
         - field_candidate_telephone
         - field_candidate_email
+        - 'dynamic_token_field:node-candidate_form'
       bottom:
         - body
         - addtoany
+    fields:
+      'dynamic_token_field:node-candidate_form':
+        plugin_id: 'dynamic_token_field:node-candidate_form'
+        weight: 7
+        label: hidden
+        formatter: default
 id: node.candidate.full
 targetEntityType: node
 bundle: candidate
 mode: full
 content:
   addtoany:
-    weight: 8
+    weight: 9
     region: bottom
     settings: {  }
     third_party_settings: {  }
   body:
     label: hidden
     type: text_default
-    weight: 7
+    weight: 8
     settings: {  }
     third_party_settings: {  }
     region: bottom

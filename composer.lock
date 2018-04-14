@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ec2ec892c4240cb3b57895fc4d041214",
+    "content-hash": "e053c36a81d78583e680aef2f09828e1",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2372,6 +2372,60 @@
             "time": "2017-07-28T17:11:54+00:00"
         },
         {
+            "name": "drupal/content_sync",
+            "version": "dev-2.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/content_sync",
+                "reference": "7a0a77e1b2bde60c7d04a9f545ae35568ccd9999"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.x-dev",
+                    "datestamp": "1512420185",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Blanca.Esqueda",
+                    "homepage": "https://www.drupal.org/user/3082389"
+                },
+                {
+                    "name": "chris.smith",
+                    "homepage": "https://www.drupal.org/user/1812018"
+                },
+                {
+                    "name": "dabito",
+                    "homepage": "https://www.drupal.org/user/2400660"
+                },
+                {
+                    "name": "david4lim",
+                    "homepage": "https://www.drupal.org/user/934262"
+                }
+            ],
+            "description": "Allows to import/export content using YAML files",
+            "homepage": "https://www.drupal.org/project/content_sync",
+            "support": {
+                "source": "http://cgit.drupalcode.org/content_sync"
+            },
+            "time": "2018-04-11T15:53:28+00:00"
+        },
+        {
             "name": "drupal/core",
             "version": "8.5.1",
             "source": {
@@ -4233,6 +4287,39 @@
                 }
             ],
             "time": "2015-04-20T18:58:01+00:00"
+        },
+        {
+            "name": "jmaerckaert/candidate_webform",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jmaerckaert/candidate_webform.git",
+                "reference": "277268a53463cf52074e6e76aaafc60030807ee0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jmaerckaert/candidate_webform/zipball/277268a53463cf52074e6e76aaafc60030807ee0",
+                "reference": "277268a53463cf52074e6e76aaafc60030807ee0",
+                "shasum": ""
+            },
+            "type": "drupal-custom-module",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Maerckaert (jmaerckaert)",
+                    "homepage": "https://github.com/jmaerckaert/",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Custom module to send webform to the candidate.",
+            "homepage": "https://github.com/jmaerckaert/candidate_webform",
+            "support": {
+                "source": "https://github.com/jmaerckaert/candidate_webform",
+                "issues": "https://github.com/jmaerckaert/candidate_webform/issues"
+            },
+            "time": "2018-04-14T11:12:18+00:00"
         },
         {
             "name": "jmaerckaert/chosen",
@@ -9152,6 +9239,7 @@
     "stability-flags": {
         "drupal/auto_entitylabel": 10,
         "drupal/better_exposed_filters": 15,
+        "drupal/content_sync": 20,
         "drupal/flexslider": 10,
         "drupal/media_watermark": 15,
         "drupal/webform": 5

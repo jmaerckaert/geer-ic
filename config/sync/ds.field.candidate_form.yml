@@ -1,0 +1,11 @@
+id: candidate_form
+label: 'Candidate form'
+ui_limit: 'candidate|*'
+properties:
+  content:
+    value: "<p><a class=\"candidate-form-button\" href=\"/form/contact-candidate?candidate=[node:nid]\" title=\"Contacter le candidat [node:title] de la liste ICGeer 2018\">Contacter le candidat</a></p>\r\n"
+    format: full_html
+type: token
+type_label: 'Token field'
+entities:
+  node: node

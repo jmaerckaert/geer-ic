@@ -82,13 +82,22 @@ third_party_settings:
       top:
         - node_title
         - field_candidate_photo
+        - field_candidate_statut
+        - field_candidate_job
+        - field_candidate_town
       top_right:
         - field_candidate_position
         - field_candidate_telephone
         - field_candidate_email
+        - 'dynamic_token_field:node-candidate_form'
       middle:
         - body
     fields:
+      'dynamic_token_field:node-candidate_form':
+        plugin_id: 'dynamic_token_field:node-candidate_form'
+        weight: 8
+        label: hidden
+        formatter: default
       node_title:
         plugin_id: node_title
         weight: 0
@@ -102,27 +111,27 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 5
+    weight: 9
     settings: {  }
     third_party_settings: {  }
     region: middle
   field_candidate_email:
-    weight: 4
+    weight: 7
     label: above
     settings: {  }
     third_party_settings: {  }
     type: basic_string
     region: top_right
   field_candidate_job:
-    weight: 9
+    weight: 3
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
-    region: content
+    region: top
   field_candidate_photo:
-    weight: 6
+    weight: 1
     label: hidden
     settings:
       image_style: max_325x325
@@ -131,7 +140,7 @@ content:
     type: image
     region: top
   field_candidate_position:
-    weight: 2
+    weight: 5
     label: above
     settings:
       link_to_entity: false
@@ -139,15 +148,15 @@ content:
     type: string
     region: top_right
   field_candidate_statut:
-    weight: 7
+    weight: 2
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
-    region: content
+    region: top
   field_candidate_telephone:
-    weight: 3
+    weight: 6
     label: above
     settings:
       title: ''
@@ -155,13 +164,13 @@ content:
     type: telephone_link
     region: top_right
   field_candidate_town:
-    weight: 10
+    weight: 4
     label: above
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
-    region: content
+    region: top
 hidden:
   addtoany: true
   field_candidate_lastname: true

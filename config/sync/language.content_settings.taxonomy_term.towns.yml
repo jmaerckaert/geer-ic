@@ -1,0 +1,11 @@
+uuid: 10ee4d00-79c6-4698-bdb0-0fdb0f99cc3c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.towns
+id: taxonomy_term.towns
+target_entity_type_id: taxonomy_term
+target_bundle: towns
+default_langcode: site_default
+language_alterable: false

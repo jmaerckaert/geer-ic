@@ -1,0 +1,10 @@
+uuid: fe689fb4-0fbb-484a-9a52-51303d8524f4
+langcode: fr
+status: true
+dependencies: {  }
+id: montserrat
+label: Montserrat
+font_url: 'https://www.google.com/webfonts/family?family=Montserrat&subset=latin#500'
+fallback: ''
+selectors: '.fontyourface p, .fontyourface div'
+theme: icgeer

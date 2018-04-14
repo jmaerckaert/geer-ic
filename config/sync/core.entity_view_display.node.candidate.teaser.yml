@@ -5,25 +5,129 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.candidate.body
+    - field.field.node.candidate.field_candidate_email
+    - field.field.node.candidate.field_candidate_job
+    - field.field.node.candidate.field_candidate_lastname
+    - field.field.node.candidate.field_candidate_name
+    - field.field.node.candidate.field_candidate_photo
+    - field.field.node.candidate.field_candidate_position
+    - field.field.node.candidate.field_candidate_statut
+    - field.field.node.candidate.field_candidate_telephone
+    - field.field.node.candidate.field_candidate_town
+    - image.style.medium
     - node.type.candidate
   module:
-    - text
+    - ds
+    - image
+    - taxonomy
+    - telephone
     - user
+third_party_settings:
+  ds:
+    layout:
+      id: bs_2col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        layout:
+          wrapper: div
+          classes:
+            row: row
+          add_layout_class: 1
+          attributes: ''
+        regions:
+          left:
+            wrapper: div
+            classes:
+              col-sm-3: col-sm-3
+            add_region_classes: 1
+            attributes: ''
+          right:
+            wrapper: div
+            classes:
+              col-sm-9: col-sm-9
+            add_region_classes: 1
+            attributes: ''
+    regions:
+      left:
+        - field_candidate_photo
+      right:
+        - node_title
+        - field_candidate_position
+        - field_candidate_town
+        - field_candidate_telephone
+        - field_candidate_email
+        - links
+        - addtoany
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 1
+        label: hidden
+        formatter: default
+        settings:
+          link: true
+          wrapper: h2
+          class: ''
 id: node.candidate.teaser
 targetEntityType: node
 bundle: candidate
 mode: teaser
 content:
-  body:
-    label: hidden
-    type: text_summary_or_trimmed
-    weight: 101
-    settings:
-      trim_length: 600
+  addtoany:
+    weight: 7
+    region: right
+    settings: {  }
     third_party_settings: {  }
-    region: content
+  field_candidate_email:
+    type: basic_string
+    weight: 5
+    region: right
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+  field_candidate_photo:
+    type: image
+    weight: 0
+    region: left
+    label: hidden
+    settings:
+      image_style: medium
+      image_link: content
+    third_party_settings: {  }
+  field_candidate_position:
+    type: string
+    weight: 2
+    region: right
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_candidate_telephone:
+    type: telephone_link
+    weight: 4
+    region: right
+    label: inline
+    settings:
+      title: ''
+    third_party_settings: {  }
+  field_candidate_town:
+    type: entity_reference_rss_category
+    weight: 3
+    region: right
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
   links:
-    weight: 100
-    region: content
+    weight: 6
+    region: right
+    settings: {  }
+    third_party_settings: {  }
 hidden:
+  body: true
+  field_candidate_job: true
+  field_candidate_lastname: true
+  field_candidate_name: true
+  field_candidate_statut: true
   langcode: true

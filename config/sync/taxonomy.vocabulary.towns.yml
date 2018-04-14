@@ -1,0 +1,9 @@
+uuid: b6543eb1-406a-407f-abfa-fb46425d1c58
+langcode: fr
+status: true
+dependencies: {  }
+name: Towns
+vid: towns
+description: ''
+hierarchy: 0
+weight: 0

@@ -6,15 +6,19 @@ dependencies:
     - core.entity_view_mode.node.slider
     - field.field.node.candidate.body
     - field.field.node.candidate.field_candidate_email
+    - field.field.node.candidate.field_candidate_job
     - field.field.node.candidate.field_candidate_lastname
     - field.field.node.candidate.field_candidate_name
     - field.field.node.candidate.field_candidate_photo
     - field.field.node.candidate.field_candidate_position
+    - field.field.node.candidate.field_candidate_statut
     - field.field.node.candidate.field_candidate_telephone
+    - field.field.node.candidate.field_candidate_town
+    - image.style.flexslider_icgeer
     - node.type.candidate
   module:
     - ds
-    - responsive_image
+    - image
     - user
 third_party_settings:
   ds:
@@ -49,17 +53,21 @@ content:
     weight: 0
     label: hidden
     settings:
-      image_link: ''
-      responsive_image_style: ''
+      image_style: flexslider_icgeer
+      image_link: content
     third_party_settings: {  }
-    type: responsive_image
+    type: image
     region: main
 hidden:
+  addtoany: true
   body: true
   field_candidate_email: true
+  field_candidate_job: true
   field_candidate_lastname: true
   field_candidate_name: true
   field_candidate_position: true
+  field_candidate_statut: true
   field_candidate_telephone: true
+  field_candidate_town: true
   langcode: true
   links: true

@@ -1,0 +1,20 @@
+uuid: bc9c3971-8343-46cb-8db3-f53a258f4c69
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_candidate_town
+field_name: field_candidate_town
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

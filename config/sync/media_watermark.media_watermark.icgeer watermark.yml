@@ -1,0 +1,12 @@
+uuid: 97edc94b-7bea-4d59-bdf9-1b9ab7fe0e76
+langcode: fr
+status: true
+dependencies: {  }
+id: 'icgeer watermark'
+fid:
+  - '8'
+label: 'ICGeer watermark'
+horizontalPosition: left
+verticalPosition: bottom
+horizontalMargin: '5'
+verticalMargin: '5'

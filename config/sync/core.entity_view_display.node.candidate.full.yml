@@ -6,23 +6,27 @@ dependencies:
     - core.entity_view_mode.node.full
     - field.field.node.candidate.body
     - field.field.node.candidate.field_candidate_email
+    - field.field.node.candidate.field_candidate_job
     - field.field.node.candidate.field_candidate_lastname
     - field.field.node.candidate.field_candidate_name
     - field.field.node.candidate.field_candidate_photo
     - field.field.node.candidate.field_candidate_position
+    - field.field.node.candidate.field_candidate_statut
     - field.field.node.candidate.field_candidate_telephone
+    - field.field.node.candidate.field_candidate_town
     - node.type.candidate
     - responsive_image.styles.narrow
   module:
     - ds
     - responsive_image
+    - taxonomy
     - telephone
     - text
     - user
 third_party_settings:
   ds:
     layout:
-      id: bs_2col_bricked
+      id: bs_2col_stacked
       library: null
       disable_css: false
       entity_classes: all_classes
@@ -40,31 +44,13 @@ third_party_settings:
               col-sm-12: col-sm-12
             add_region_classes: 1
             attributes: ''
-          top_left:
+          left:
             wrapper: div
             classes:
               col-sm-6: col-sm-6
             add_region_classes: 1
             attributes: ''
-          top_right:
-            wrapper: div
-            classes:
-              col-sm-6: col-sm-6
-            add_region_classes: 1
-            attributes: ''
-          middle:
-            wrapper: div
-            classes:
-              col-sm-12: col-sm-12
-            add_region_classes: 1
-            attributes: ''
-          bottom_left:
-            wrapper: div
-            classes:
-              col-sm-6: col-sm-6
-            add_region_classes: 1
-            attributes: ''
-          bottom_right:
+          right:
             wrapper: div
             classes:
               col-sm-6: col-sm-6
@@ -77,37 +63,54 @@ third_party_settings:
             add_region_classes: 1
             attributes: ''
     regions:
-      top_left:
+      left:
         - field_candidate_photo
-      top_right:
+      right:
         - field_candidate_position
+        - field_candidate_town
+        - field_candidate_job
+        - field_candidate_statut
         - field_candidate_telephone
         - field_candidate_email
-      middle:
+      bottom:
         - body
+        - addtoany
 id: node.candidate.full
 targetEntityType: node
 bundle: candidate
 mode: full
 content:
+  addtoany:
+    weight: 8
+    region: bottom
+    settings: {  }
+    third_party_settings: {  }
   body:
     label: hidden
     type: text_default
-    weight: 4
+    weight: 7
     settings: {  }
     third_party_settings: {  }
-    region: middle
+    region: bottom
   field_candidate_email:
-    weight: 3
+    weight: 6
     label: inline
     settings: {  }
     third_party_settings: {  }
     type: email_mailto
-    region: top_right
+    region: right
+  field_candidate_job:
+    type: string
+    weight: 3
+    region: right
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
   field_candidate_photo:
     type: responsive_image
     weight: 0
-    region: top_left
+    region: left
     label: hidden
     settings:
       responsive_image_style: narrow
@@ -115,14 +118,22 @@ content:
     third_party_settings: {  }
   field_candidate_position:
     weight: 1
-    label: above
+    label: inline
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
-    region: top_right
+    region: right
+  field_candidate_statut:
+    type: string
+    weight: 4
+    region: right
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
   field_candidate_telephone:
-    weight: 2
+    weight: 5
     label: inline
     settings:
       title: ''
@@ -130,7 +141,14 @@ content:
       ds:
         ds_limit: ''
     type: telephone_link
-    region: top_right
+    region: right
+  field_candidate_town:
+    type: entity_reference_rss_category
+    weight: 2
+    region: right
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   field_candidate_lastname: true
   field_candidate_name: true

@@ -1,0 +1,11 @@
+uuid: ce2ce29c-5b59-4f9a-aa10-5842ae8de8ee
+langcode: fr
+status: true
+dependencies:
+  config:
+    - image.style.wide_banner
+id: wide_banner
+label: 'Wide banner'
+image_style_mappings: {  }
+breakpoint_group: responsive_image
+fallback_image_style: wide_banner

@@ -1,0 +1,51 @@
+uuid: e1885637-38f9-4499-89b1-43166360d507
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.bloc_banner
+    - field.field.block_content.bloc_banner.field_bloc_banner_banner
+    - image.style.wide_banner
+  module:
+    - ds
+    - image
+third_party_settings:
+  ds:
+    layout:
+      id: bs_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        layout:
+          wrapper: div
+          classes:
+            row: row
+          add_layout_class: 1
+          attributes: ''
+        regions:
+          main:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+    regions:
+      main:
+        - field_bloc_banner_banner
+id: block_content.bloc_banner.default
+targetEntityType: block_content
+bundle: bloc_banner
+mode: default
+content:
+  field_bloc_banner_banner:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: wide_banner
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: main
+hidden:
+  langcode: true

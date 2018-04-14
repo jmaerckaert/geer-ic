@@ -1,0 +1,19 @@
+uuid: 6c95b1b9-d708-4bad-b10e-7b4283989ed6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.frontpage
+  module:
+    - user
+id: node.frontpage.default
+targetEntityType: node
+bundle: frontpage
+mode: default
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  langcode: true

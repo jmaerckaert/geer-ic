@@ -3,13 +3,16 @@ langcode: fr
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.slider
+    - core.entity_view_mode.node.teaser
     - node.type.candidate
+    - system.menu.main
+    - taxonomy.vocabulary.towns
   module:
+    - better_exposed_filters
     - ds
     - node
+    - taxonomy
     - user
-    - views_slideshow
 id: candidates_list
 label: 'Candidates list'
 module: views
@@ -41,7 +44,7 @@ display:
           query_comment: ''
           query_tags: {  }
       exposed_form:
-        type: basic
+        type: bef
         options:
           submit_button: Appliquer
           reset_button: false
@@ -50,88 +53,39 @@ display:
           expose_sort_order: true
           sort_asc_label: Asc
           sort_desc_label: Desc
+          input_required: false
+          text_input_required: 'Sélectionnez n''importe quel filtre et cliquez sur Appliquer pour voir les résultats'
+          bef:
+            general:
+              allow_secondary: false
+              secondary_label: 'Options avancées'
+              autosubmit: false
+              autosubmit_hide: false
+            field_candidate_town_target_id:
+              bef_format: bef_links
+              more_options:
+                bef_select_all_none: false
+                bef_collapsible: false
+                is_secondary: false
+                rewrite:
+                  filter_rewrite_values: ''
+          text_input_required_format: restricted_html
       pager:
         type: none
         options:
           items_per_page: 0
           offset: 0
       style:
-        type: slideshow
+        type: default
         options:
           row_class: ''
           default_row_class: true
-          slideshow_skin: default
-          slideshow_type: views_slideshow_cycle
-          views_slideshow_cycle:
-            effect: fade
-            transition_advanced: 0
-            timeout: '5000'
-            speed: '700'
-            delay: '0'
-            sync: 1
-            random: 0
-            pause: 1
-            pause_on_click: 0
-            action_advanced: 0
-            start_paused: 0
-            remember_slide: 0
-            remember_slide_days: '1'
-            pause_when_hidden: 0
-            pause_when_hidden_type: full
-            amount_allowed_visible: ''
-            nowrap: 0
-            fixed_height: 1
-            items_per_slide: '1'
-            items_per_slide_first: 0
-            items_per_slide_first_number: '1'
-            wait_for_image_load: 1
-            wait_for_image_load_timeout: '3000'
-            cleartype: 0
-            cleartypenobg: 0
-          widgets:
-            top:
-              views_slideshow_controls:
-                enable: false
-                weight: '1'
-                hide_on_single_slide: '0'
-                type: views_slideshow_controls_text
-              views_slideshow_slide_counter:
-                enable: false
-                weight: '1'
-                hide_on_single_slide: '0'
-              views_slideshow_pager:
-                enable: false
-                weight: '1'
-                hide_on_single_slide: '0'
-                type: views_slideshow_pager_bullets
-                views_slideshow_pager_fields:
-                  views_slideshow_pager_fields_fields:
-                    title: 0
-                  views_slideshow_pager_fields_hover: 0
-            bottom:
-              views_slideshow_controls:
-                enable: false
-                weight: '1'
-                hide_on_single_slide: '0'
-                type: views_slideshow_controls_text
-              views_slideshow_slide_counter:
-                enable: false
-                weight: '1'
-                hide_on_single_slide: '0'
-              views_slideshow_pager:
-                enable: false
-                weight: '1'
-                hide_on_single_slide: '0'
-                type: views_slideshow_pager_bullets
-                views_slideshow_pager_fields:
-                  views_slideshow_pager_fields_fields:
-                    title: 0
-                  views_slideshow_pager_fields_hover: 0
+          uses_fields: false
       row:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: slider
+          view_mode: teaser
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -224,34 +178,112 @@ display:
           entity_type: node
           entity_field: type
           plugin_id: bundle
-      sorts: {  }
-      title: 'Candidates list'
-      header: {  }
+        field_candidate_town_target_id:
+          id: field_candidate_town_target_id
+          table: node__field_candidate_town
+          field: field_candidate_town_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: or
+          value: {  }
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_candidate_town_target_id_op
+            label: ''
+            description: ''
+            use_operator: false
+            operator: field_candidate_town_target_id_op
+            identifier: field_candidate_town_target_id
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              editor: '0'
+              administrator: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: true
+          type: select
+          limit: true
+          vid: towns
+          hierarchy: false
+          error_message: true
+          plugin_id: taxonomy_index_tid
+      sorts:
+        field_candidate_position_value:
+          id: field_candidate_position_value
+          table: node__field_candidate_position
+          field: field_candidate_position_value
+          relationship: none
+          group_type: group
+          admin_label: ''
+          order: ASC
+          exposed: false
+          expose:
+            label: ''
+          plugin_id: standard
+      title: 'Liste des candidats ICGeer'
+      header:
+        entity_taxonomy_term:
+          id: entity_taxonomy_term
+          table: views
+          field: entity_taxonomy_term
+          plugin_id: entity
       footer: {  }
       empty: {  }
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
+      use_ajax: false
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
-  block_1:
-    display_plugin: block
-    id: block_1
-    display_title: Block
-    position: 1
+  page_candidats_list:
+    display_plugin: page
+    id: page_candidats_list
+    display_title: Page
+    position: 2
     display_options:
       display_extenders: {  }
+      path: candidats
+      menu:
+        type: normal
+        title: Candidats
+        description: 'Liste des candidats ICGeer'
+        expanded: false
+        parent: ''
+        weight: 0
+        context: '0'
+        menu_name: main
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }

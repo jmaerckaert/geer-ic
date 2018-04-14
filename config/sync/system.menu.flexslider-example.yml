@@ -1,0 +1,10 @@
+uuid: 9b627892-fa7b-474f-a4cd-2e2fe4bff009
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ZtJnPIfx9vvcmL3IheThLD3Zrjnv_WD0juB0PNqBU3g
+id: flexslider-example
+label: 'FlexSlider Example'
+description: 'Example FlexSlider implementations'
+locked: true

@@ -1,11 +1,11 @@
 uuid: 9d7c1259-d283-42b6-92f7-ca7e95b5c8a6
 name: ICGeer
 mail: info@icgeer.be
-slogan: ''
+slogan: 'Restons concret!'
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/4
 admin_compact_mode: false
 weight_select_max: 100
 langcode: fr

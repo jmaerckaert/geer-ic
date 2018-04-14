@@ -1,0 +1,7 @@
+name: Candidate webform
+type: module
+description: 'Send the webform submission to the candidate email.'
+package: Other
+core: 8.x
+dependencies:
+  - webform

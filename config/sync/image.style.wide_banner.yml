@@ -1,0 +1,14 @@
+uuid: f61698a5-abf4-4ce4-b488-fdb83a2247a6
+langcode: fr
+status: true
+dependencies: {  }
+name: wide_banner
+label: 'Wide banner'
+effects:
+  123f0c20-cbc0-43a7-9855-6fbb1e8ae335:
+    uuid: 123f0c20-cbc0-43a7-9855-6fbb1e8ae335
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 1140
+      height: 500

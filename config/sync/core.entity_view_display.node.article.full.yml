@@ -61,6 +61,7 @@ third_party_settings:
         - node_changed_date
         - field_tags
         - links
+        - addtoany
         - comment
     fields:
       node_changed_date:
@@ -85,6 +86,11 @@ targetEntityType: node
 bundle: article
 mode: full
 content:
+  addtoany:
+    weight: 7
+    region: bottom
+    settings: {  }
+    third_party_settings: {  }
   body:
     type: text_default
     weight: 2
@@ -94,7 +100,7 @@ content:
     label: hidden
   comment:
     type: comment_default
-    weight: 7
+    weight: 8
     region: bottom
     label: above
     settings:

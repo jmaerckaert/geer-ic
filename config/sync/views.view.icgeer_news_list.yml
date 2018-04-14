@@ -5,9 +5,13 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - node.type.article
+    - system.menu.main
+    - taxonomy.vocabulary.tags
   module:
+    - better_exposed_filters
     - ds
     - node
+    - taxonomy
     - user
 id: icgeer_news_list
 label: 'News list'
@@ -40,7 +44,7 @@ display:
           query_comment: ''
           query_tags: {  }
       exposed_form:
-        type: basic
+        type: bef
         options:
           submit_button: Apply
           reset_button: false
@@ -49,6 +53,23 @@ display:
           expose_sort_order: true
           sort_asc_label: Asc
           sort_desc_label: Desc
+          input_required: false
+          text_input_required: 'Sélectionnez n''importe quel filtre et cliquez sur Appliquer pour voir les résultats'
+          bef:
+            general:
+              allow_secondary: false
+              secondary_label: 'Options avancées'
+              autosubmit: false
+              autosubmit_hide: false
+            field_tags_target_id:
+              bef_format: bef_links
+              more_options:
+                bef_select_all_none: false
+                bef_collapsible: false
+                is_secondary: false
+                rewrite:
+                  filter_rewrite_values: ''
+          text_input_required_format: restricted_html
       pager:
         type: mini
         options:
@@ -172,6 +193,52 @@ display:
           entity_type: node
           entity_field: type
           plugin_id: bundle
+        field_tags_target_id:
+          id: field_tags_target_id
+          table: node__field_tags
+          field: field_tags_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: or
+          value: {  }
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_tags_target_id_op
+            label: ''
+            description: ''
+            use_operator: false
+            operator: field_tags_target_id_op
+            identifier: field_tags_target_id
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              editor: '0'
+              administrator: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          type: select
+          limit: true
+          vid: tags
+          hierarchy: false
+          error_message: true
+          plugin_id: taxonomy_index_tid
       sorts:
         created:
           id: created
@@ -200,24 +267,38 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url
         - url.query_args
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
-  page_1:
+  page_articles:
     display_plugin: page
-    id: page_1
+    id: page_articles
     display_title: Page
     position: 1
     display_options:
-      display_extenders: {  }
-      path: news-list
+      display_extenders:
+        metatag_display_extender: {  }
+      path: articles
+      menu:
+        type: normal
+        title: Articles
+        description: 'Liste d''articles'
+        expanded: false
+        parent: ''
+        weight: 0
+        context: '0'
+        menu_name: main
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url
         - url.query_args
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }

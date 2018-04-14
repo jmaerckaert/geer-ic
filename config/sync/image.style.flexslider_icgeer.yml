@@ -1,0 +1,14 @@
+uuid: a253c070-126d-41ba-83b9-d024df1fc15c
+langcode: fr
+status: true
+dependencies: {  }
+name: flexslider_icgeer
+label: 'Flexslider ICGeer'
+effects:
+  b407fa1a-befa-4b56-b003-59d6abf32923:
+    uuid: b407fa1a-befa-4b56-b003-59d6abf32923
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 240
+      height: 260

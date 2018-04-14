@@ -1,0 +1,8 @@
+uuid: 53e466a2-331c-4023-83f6-c2d89860add7
+langcode: fr
+status: true
+dependencies: {  }
+id: bloc_banner
+label: 'Bloc banner'
+revision: 1
+description: ''

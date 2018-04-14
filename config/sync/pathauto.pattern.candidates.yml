@@ -1,0 +1,22 @@
+uuid: e955b7db-9566-4d0f-9777-f6bb88e47340
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: candidates
+label: Candidates
+type: 'canonical_entities:node'
+pattern: '/candidat/[node:title]'
+selection_criteria:
+  740dc52f-c5d0-47ac-8ac3-c154f2c0bcac:
+    id: node_type
+    bundles:
+      candidate: candidate
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 740dc52f-c5d0-47ac-8ac3-c154f2c0bcac
+selection_logic: and
+weight: -5
+relationships: {  }

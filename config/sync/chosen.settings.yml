@@ -14,7 +14,7 @@ disabled_themes:
   bootstrap: bootstrap
   icgeer: icgeer
   seven: '0'
-chosen_include: 2
+chosen_include: 0
 _core:
   default_config_hash: JUHKHJeHl1bWXY41HMIcDR-VmAWvJ4OJycDubCkIeDU
 langcode: fr

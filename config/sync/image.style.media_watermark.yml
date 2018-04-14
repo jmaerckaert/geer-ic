@@ -1,0 +1,17 @@
+uuid: bd04e490-631a-415c-acaf-49e82d6480fa
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: K_EHZbwmHuVYA1tiVwNkpFq3JrOPKt6JboH611qnn0E
+name: media_watermark
+label: 'Media Watermark (200xANY)'
+effects:
+  ddd73aa7-4bd6-4c85-b600-bdf2b1628d77:
+    uuid: ddd73aa7-4bd6-4c85-b600-bdf2b1628d1d
+    id: image_scale
+    weight: 0
+    data:
+      width: 200
+      height: null
+      upscale: false

@@ -15,7 +15,9 @@
 
 # Ignore Drupal's file directory
 /web/sites/*/files/
-/web/sites/default/services.yml
+!/web/sites/*/default.settings.php
+/web/sites/**/*services*.yml
+!/web/sites/*/default.services.yml
 
 # Ignore SimpleTest multi-site environment.
 /web/sites/simpletest

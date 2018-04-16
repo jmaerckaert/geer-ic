@@ -81,7 +81,7 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_candidate_email:
-    type: basic_string
+    type: email_mailto
     weight: 5
     region: right
     label: inline

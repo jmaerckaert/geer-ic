@@ -1,13 +1,15 @@
 uuid: ece9ad9a-50f3-43f4-bce6-551d7ebf6924
 langcode: fr
 status: open
-dependencies: {  }
+dependencies:
+  module:
+    - candidate_webform
 open: null
 close: null
 uid: 1
 template: false
 id: contact_candidate
-title: 'Contact candidate'
+title: 'Contacter le candidate'
 description: ''
 category: ''
 elements: "contact_candidate_nom:\n  '#type': textfield\n  '#title': 'Votre nom'\ncontact_candidate_email:\n  '#type': email\n  '#title': 'Votre email'\ncontact_candidate_objet:\n  '#type': textfield\n  '#title': Objet\ncontact_candidate_question:\n  '#type': textarea\n  '#title': Question\n"
@@ -147,7 +149,7 @@ handlers:
     handler_id: courriel
     status: true
     conditions: {  }
-    weight: 0
+    weight: -49
     settings:
       states:
         - completed
@@ -164,6 +166,38 @@ handlers:
       body: default
       excluded_elements: {  }
       ignore_access: false
+      exclude_empty: true
+      html: true
+      attachments: false
+      twig: false
+      debug: false
+      reply_to: ''
+      return_path: ''
+      sender_mail: ''
+      sender_name: ''
+  caandidate_email:
+    id: candidate_email
+    label: 'Caandidate email'
+    handler_id: caandidate_email
+    status: true
+    conditions: {  }
+    weight: -50
+    settings:
+      states:
+        - completed
+      to_mail: default
+      to_options: {  }
+      cc_mail: ''
+      cc_options: {  }
+      bcc_mail: ''
+      bcc_options: {  }
+      from_mail: default
+      from_options: {  }
+      from_name: default
+      subject: default
+      body: default
+      excluded_elements: {  }
+      ignore_access: 0
       exclude_empty: true
       html: true
       attachments: false

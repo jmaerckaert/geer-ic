@@ -74,6 +74,7 @@
         "drupal/media_watermark": "^1.0@alpha",
         "drupal/metatag": "^1.5",
         "drupal/pathauto": "^1.1",
+        "drupal/refreshless": "^1.0@alpha",
         "drupal/seo_checklist": "^4.1",
         "drupal/views_slideshow": "^4.6",
         "drupal/webform": "^5.0@RC",
@@ -99,7 +100,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+		"preferred-install": "source"
     },
     "autoload": {
         "classmap": [
@@ -132,6 +134,11 @@
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
 			"web/themes/custom/{$name}": ["type:drupal-custom-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"]
+        },
+		"patches": {
+            "drupal/core": {
+                "Changes in order to use refreshless module": "patches/refreshless.patch"     
+            }
         }
     }
 }

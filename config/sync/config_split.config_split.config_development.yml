@@ -15,9 +15,11 @@ module:
   webprofiler: 0
 theme: {  }
 blacklist:
+  - block.block.bannierelisticgeer2018
   - google_analytics.settings
   - system.file
   - system.performance
+  - system.site
 graylist: {  }
 graylist_dependents: true
 graylist_skip_equal: true

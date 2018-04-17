@@ -45,6 +45,10 @@
 		{
 			"type": "github",
 			"url": "https://github.com/jmaerckaert/candidate_webform.git"
+        },
+		{
+			"type": "github",
+			"url": "https://github.com/jmaerckaert/fontawesome.git"
         }
     ],
     "require": {
@@ -67,6 +71,7 @@
         "drupal/ds": "^3.1",
         "drupal/easy_breadcrumb": "^1.7",
         "drupal/flexslider": "^2.0@beta",
+        "drupal/fontawesome": "^2.0",
         "drupal/fontyourface": "^3.2",
         "drupal/gdpr_compliance": "^1.4",
         "drupal/google_analytics": "^2.2",
@@ -81,6 +86,7 @@
         "drush/drush": "^9.2",
         "jmaerckaert/candidate_webform": "master",
         "jmaerckaert/chosen": "master",
+		"jmaerckaert/fontawesome": "master",
         "jmaerckaert/flexslider": "master",
         "jmaerckaert/icgeer": "master",
         "jmaerckaert/jquery.cycle": "master",
@@ -134,11 +140,6 @@
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
 			"web/themes/custom/{$name}": ["type:drupal-custom-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"]
-        },
-		"patches": {
-            "drupal/core": {
-                "Changes in order to use refreshless module": "patches/refreshless.patch"     
-            }
         }
     }
 }

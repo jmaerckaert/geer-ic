@@ -42,6 +42,7 @@ module:
   flexslider_example: 0
   flexslider_fields: 0
   flexslider_views: 0
+  fontawesome: 0
   gdpr_compliance: 0
   google_analytics: 0
   help: 0

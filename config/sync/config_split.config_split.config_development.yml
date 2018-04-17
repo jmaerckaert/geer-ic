@@ -1,6 +1,6 @@
 uuid: a9c89973-f432-4789-b57c-d101508bef43
 langcode: fr
-status: true
+status: false
 dependencies: {  }
 id: config_development
 label: Development
@@ -15,7 +15,6 @@ module:
   webprofiler: 0
 theme: {  }
 blacklist:
-  - block.block.bannierelisticgeer2018
   - google_analytics.settings
   - system.file
   - system.performance

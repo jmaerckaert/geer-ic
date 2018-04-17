@@ -109,4 +109,5 @@ content:
 hidden:
   body: true
   comment: true
+  field_article_link: true
   langcode: true

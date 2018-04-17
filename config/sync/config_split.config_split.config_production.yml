@@ -8,6 +8,7 @@ folder: ../config/prod
 module: {  }
 theme: {  }
 blacklist:
+  - block.block.bannierelisticgeer2018
   - google_analytics.settings
   - system.file
   - system.performance

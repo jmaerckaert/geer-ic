@@ -1,0 +1,31 @@
+uuid: 958bb5ec-273d-4dfd-92f6-af039854188e
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:bloc_banner:45f8283e-dbd4-43f1-b41b-ada341345437'
+  module:
+    - block_content
+    - system
+  theme:
+    - icgeer
+id: bannierelisticgeer2018
+theme: icgeer
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:45f8283e-dbd4-43f1-b41b-ada341345437'
+settings:
+  id: 'block_content:45f8283e-dbd4-43f1-b41b-ada341345437'
+  label: 'Bannière list ICGeer 2018'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

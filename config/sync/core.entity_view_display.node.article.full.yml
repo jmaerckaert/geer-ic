@@ -7,20 +7,21 @@ dependencies:
     - core.entity_view_mode.node.full
     - field.field.node.article.body
     - field.field.node.article.comment
+    - field.field.node.article.field_article_link
+    - field.field.node.article.field_article_teaser
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
-    - image.style.large
     - node.type.article
   module:
     - comment
     - ds
-    - image
+    - responsive_image
     - text
     - user
 third_party_settings:
   ds:
     layout:
-      id: bs_1col_stacked
+      id: bs_2col_stacked
       library: null
       disable_css: false
       entity_classes: all_classes
@@ -38,10 +39,16 @@ third_party_settings:
               col-sm-12: col-sm-12
             add_region_classes: 1
             attributes: ''
-          main:
+          left:
             wrapper: div
             classes:
-              col-sm-12: col-sm-12
+              col-sm-6: col-sm-6
+            add_region_classes: 1
+            attributes: ''
+          right:
+            wrapper: div
+            classes:
+              col-sm-6: col-sm-6
             add_region_classes: 1
             attributes: ''
           bottom:
@@ -52,13 +59,14 @@ third_party_settings:
             attributes: ''
     regions:
       top:
-        - node_title
-      main:
-        - field_image
-        - body
-      bottom:
         - node_post_date
         - node_changed_date
+      left:
+        - field_image
+      right:
+        - field_article_teaser
+      bottom:
+        - body
         - field_tags
         - links
         - addtoany
@@ -66,19 +74,14 @@ third_party_settings:
     fields:
       node_changed_date:
         plugin_id: node_changed_date
-        weight: 4
-        label: above
-        formatter: ds_post_date_long
+        weight: 1
+        label: inline
+        formatter: ds_post_date_medium
       node_post_date:
         plugin_id: node_post_date
-        weight: 3
-        label: above
-        formatter: ds_post_date_long
-      node_title:
-        plugin_id: node_title
         weight: 0
-        label: hidden
-        formatter: default
+        label: inline
+        formatter: ds_post_date_medium
 _core:
   default_config_hash: ChmU3AVqDKU32A_fyChG0W9dTRKmVBR58B6OClCLvZI
 id: node.article.full
@@ -93,8 +96,8 @@ content:
     third_party_settings: {  }
   body:
     type: text_default
-    weight: 2
-    region: main
+    weight: 4
+    region: bottom
     settings: {  }
     third_party_settings: {  }
     label: hidden
@@ -107,13 +110,20 @@ content:
       view_mode: default
       pager_id: 0
     third_party_settings: {  }
+  field_article_teaser:
+    type: text_default
+    weight: 3
+    region: right
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
   field_image:
-    type: image
-    weight: 1
-    region: main
+    type: responsive_image
+    weight: 2
+    region: left
     settings:
-      image_style: large
       image_link: ''
+      responsive_image_style: ''
     third_party_settings: {  }
     label: hidden
   field_tags:
@@ -134,5 +144,4 @@ content:
     third_party_settings: {  }
 hidden:
   field_article_link: true
-  field_article_teaser: true
   langcode: true

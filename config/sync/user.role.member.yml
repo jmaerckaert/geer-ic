@@ -1,0 +1,18 @@
+uuid: e89f2b3c-96b2-493d-a6b6-1b237114c5ee
+langcode: fr
+status: true
+dependencies: {  }
+id: member
+label: Member
+weight: -8
+is_admin: null
+permissions:
+  - 'access toolbar'
+  - 'access webform submission log'
+  - 'create article content'
+  - 'create terms in tags'
+  - 'edit own article content'
+  - 'use editorial transition create_new_draft'
+  - 'view any webform submission'
+  - 'view own unpublished content'
+  - 'view own webform submission'

@@ -1,0 +1,11 @@
+id: dates_articles
+label: 'Dates articles'
+ui_limit: 'article|*'
+properties:
+  content:
+    value: "<p class=\"dates-articles\">Fait à Geer le [node:created:date_short_fr] et mis à jour le [node:changed:date_short_fr].</p>\r\n"
+    format: full_html
+type: token
+type_label: 'Token field'
+entities:
+  node: node

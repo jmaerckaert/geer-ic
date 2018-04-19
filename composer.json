@@ -132,6 +132,14 @@
         ]
     },
     "extra": {
+		"merge-plugin": {
+            "include": [
+                "core/composer.json"
+            ],
+            "recurse": false,
+            "replace": false,
+            "merge-extra": false
+        },
         "installer-paths": {
             "web/core": ["type:drupal-core"],
             "web/libraries/{$name}": ["type:drupal-library"],
@@ -141,6 +149,11 @@
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
 			"web/themes/custom/{$name}": ["type:drupal-custom-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"]
+        },
+		"patches": {
+            "drupal/core": {
+                "Modif in order to use Refreshless module.": "patches/refreshless.patch"
+            }
         }
     }
 }

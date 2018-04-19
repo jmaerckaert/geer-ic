@@ -1,0 +1,192 @@
+# French translation of ICGeer
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-04-19 07:20+0000\n"
+"PO-Revision-Date: 2018-04-19 07:20+0000\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Content type"
+msgstr "Content type"
+
+msgid "Default"
+msgstr "Default"
+
+msgid "Publish"
+msgstr "Publish"
+
+msgid "Taxonomy term"
+msgstr "Taxonomy term"
+
+msgid "User"
+msgstr "User"
+
+msgid "Content"
+msgstr "Content"
+
+msgid "Home"
+msgstr "Home"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Filter"
+msgstr "Filter"
+
+msgid "Sort by"
+msgstr "Sort by"
+
+msgid "Front page"
+msgstr "Front page"
+
+msgid "Tools"
+msgstr "Tools"
+
+msgid "Tags"
+msgstr "Tags"
+
+msgid "Teaser"
+msgstr "Teaser"
+
+msgid "Master"
+msgstr "Master"
+
+msgid "Apply"
+msgstr "Apply"
+
+msgid "Reset"
+msgstr "Reset"
+
+msgid "‹ Previous"
+msgstr "‹ Previous"
+
+msgid "Next ›"
+msgstr "Next ›"
+
+msgid "Items per page"
+msgstr "Items per page"
+
+msgid "- All -"
+msgstr "- All -"
+
+msgid "Offset"
+msgstr "Offset"
+
+msgid "Updated"
+msgstr "Updated"
+
+msgid "Operations"
+msgstr "Operations"
+
+msgid "Author"
+msgstr "Author"
+
+msgid "Language"
+msgstr "Language"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Archive"
+msgstr "Archive"
+
+msgid "« First"
+msgstr "« First"
+
+msgid "Last »"
+msgstr "Last »"
+
+msgid "Title"
+msgstr "Title"
+
+msgid "Published"
+msgstr "Published"
+
+msgid "Development"
+msgstr "Development"
+
+msgid "Restore"
+msgstr "Restore"
+
+msgid "Draft"
+msgstr "Draft"
+
+msgid "Moderated content"
+msgstr "Moderated content"
+
+msgid "Moderation state"
+msgstr "Moderation state"
+
+msgid "Archived"
+msgstr "Archived"
+
+msgid "Wide"
+msgstr "Wide"
+
+msgid "Editorial"
+msgstr "Editorial"
+
+msgid "Narrow"
+msgstr "Narrow"
+
+msgid "Create New Draft"
+msgstr "Create New Draft"
+
+msgid "Restore to Draft"
+msgstr "Restore to Draft"
+
+msgid ""
+"<a class=\"a2a_button_facebook\"></a>\n"
+"<a "
+"class=\"a2a_button_twitter\"></a>\n"
+"<a "
+"class=\"a2a_button_google_plus\"></a>\n"
+""
+msgstr ""
+"<a class=\"a2a_button_facebook\"></a>\r\n"
+"<a "
+"class=\"a2a_button_twitter\"></a>\r\n"
+"<a "
+"class=\"a2a_button_google_plus\"></a>\r\n"
+"<a "
+"class=\"a2a_button_whatsapp\"></a>\r\n"
+"<a "
+"class=\"a2a_button_email\"></a>"
+
+msgid ""
+"We use cookies on our website to support technical features that "
+"enhance your user experience."
+msgstr ""
+"Nous utilisons des cookies sur notre site Web pour prendre en charge "
+"les fonctionnalités techniques qui améliorent votre expérience "
+"utilisateur."
+
+msgid ""
+"We also use analytics & advertising services. To opt-out click for "
+"more information."
+msgstr ""
+"Nous utilisons également des services d'analyse et de publicité. "
+"Pour désactiver, cliquez pour plus d'informations."
+
+msgid "I've read it"
+msgstr "Je l'ai lu"
+
+msgid "Username or email address."
+msgstr "Nom d'utilisateur ou adresse email"
+
+msgid ""
+"<a href='@href' target='_blank'>Cookie & Privacy Policy for "
+"Website</a>"
+msgstr ""
+"<a href='@href' target='_blank'>Cookie et politique de "
+"confidentialité pour le site Web</a>*"
+
+msgid "I have read and agree to the Cookie & Privacy Policy"
+msgstr "J'ai lu et j'accepte les cookies et la politique de confidentialité"
+

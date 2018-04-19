@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.article.body
     - field.field.node.article.comment
+    - field.field.node.article.field_article_link
     - field.field.node.article.field_article_teaser
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
@@ -45,17 +46,23 @@ third_party_settings:
             attributes: ''
     regions:
       left:
+        - content_moderation_control
         - field_image
       right:
         - node_title
         - field_article_teaser
         - field_tags
-        - links
+        - 'dynamic_token_field:node-links_button'
         - addtoany
     fields:
+      'dynamic_token_field:node-links_button':
+        plugin_id: 'dynamic_token_field:node-links_button'
+        weight: 5
+        label: hidden
+        formatter: default
       node_title:
         plugin_id: node_title
-        weight: 1
+        weight: 2
         label: hidden
         formatter: default
         settings:
@@ -70,20 +77,25 @@ bundle: article
 mode: teaser
 content:
   addtoany:
-    weight: 5
+    weight: 6
     region: right
+    settings: {  }
+    third_party_settings: {  }
+  content_moderation_control:
+    weight: 0
+    region: left
     settings: {  }
     third_party_settings: {  }
   field_article_teaser:
     type: text_default
-    weight: 2
+    weight: 3
     region: right
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
   field_image:
     type: image
-    weight: 0
+    weight: 1
     region: left
     settings:
       image_style: medium
@@ -91,23 +103,18 @@ content:
     third_party_settings: {  }
     label: hidden
   field_tags:
-    type: entity_reference_entity_view
-    weight: 3
+    type: entity_reference_label
+    weight: 4
     region: right
     settings:
-      view_mode: categories_article
-      link: false
+      link: true
     third_party_settings:
       ds:
         ds_limit: ''
     label: hidden
-  links:
-    weight: 4
-    region: right
-    settings: {  }
-    third_party_settings: {  }
 hidden:
   body: true
   comment: true
   field_article_link: true
   langcode: true
+  links: true

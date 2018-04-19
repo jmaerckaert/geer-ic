@@ -599,7 +599,7 @@ display:
           exposed: true
           expose:
             operator_id: field_tags_target_id_op
-            label: Tags
+            label: Catégories
             description: ''
             use_operator: false
             operator: field_tags_target_id_op

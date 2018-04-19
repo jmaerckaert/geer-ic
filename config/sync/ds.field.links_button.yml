@@ -1,0 +1,11 @@
+id: links_button
+label: 'Links button'
+ui_limit: 'article|*'
+properties:
+  content:
+    value: "<a class=\"btn btn-primary\" href=\"[node:url:absolute]\">Lire plus</a>\r\n"
+    format: full_html
+type: token
+type_label: 'Token field'
+entities:
+  node: node

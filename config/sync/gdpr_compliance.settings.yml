@@ -15,3 +15,12 @@ button-text: black
 _core:
   default_config_hash: b-39ZUpjXEbkkzZloL3vT5M3cPoQt8HBHOmX3WkJ8ic
 langcode: fr
+contact_message-bundles:
+  feedback: feedback
+  personal: personal
+node-bundles:
+  candidate: 0
+  article: 0
+  flexslider_example: 0
+  frontpage: 0
+  page: 0

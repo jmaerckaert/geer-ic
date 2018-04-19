@@ -9,7 +9,7 @@ close: null
 uid: 1
 template: false
 id: contact_candidate
-title: 'Contacter le candidate'
+title: 'Contacter le candidat'
 description: ''
 category: ''
 elements: "contact_candidate_nom:\n  '#type': textfield\n  '#title': 'Votre nom'\ncontact_candidate_email:\n  '#type': email\n  '#title': 'Votre email'\ncontact_candidate_objet:\n  '#type': textfield\n  '#title': Objet\ncontact_candidate_question:\n  '#type': textarea\n  '#title': Question\n"

@@ -15,7 +15,7 @@ id: font.font.field_tags
 field_name: field_tags
 entity_type: font
 bundle: font
-label: Tags
+label: Catégories
 description: ''
 required: false
 translatable: false

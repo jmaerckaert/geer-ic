@@ -1,0 +1,14 @@
+uuid: fa8891ff-4406-4535-bfb1-e1a78253aa3c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.main
+    - taxonomy.vocabulary.tags
+id: articles_tags
+label: 'Articles tags'
+vocabulary: tags
+menu: main
+expanded: false
+depth: 0
+menu_parent: 'main:views_view:views.icgeer_news_list.page_articles'

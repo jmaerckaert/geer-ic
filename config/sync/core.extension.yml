@@ -33,7 +33,6 @@ module:
   drush_language: 0
   ds_switch_view_mode: 0
   dynamic_page_cache: 0
-  easy_breadcrumb: 0
   editor: 0
   field: 0
   field_ui: 0
@@ -72,6 +71,7 @@ module:
   path: 0
   quickedit: 0
   rdf: 0
+  redirect: 0
   refreshless: 0
   responsive_image: 0
   search: 0

@@ -8,7 +8,6 @@ favicon:
   use_default: true
 table_responsive: '-1'
 table: ''
-fluid_container: 0
 features:
   comment_user_picture: true
   comment_user_verification: true
@@ -18,4 +17,4 @@ logo:
   path: ''
   url: ''
   use_default: true
-langcode: fr
+breadcrumb_home: 1

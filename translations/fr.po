@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2018-04-19 14:27+0000\n"
-"PO-Revision-Date: 2018-04-19 14:27+0000\n"
+"POT-Creation-Date: 2018-04-20 16:08+0000\n"
+"PO-Revision-Date: 2018-04-20 16:08+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -49,7 +49,7 @@ msgid "Tools"
 msgstr "Tools"
 
 msgid "Tags"
-msgstr "Catégories"
+msgstr "Catégories articles"
 
 msgid "Teaser"
 msgstr "Teaser"
@@ -84,6 +84,18 @@ msgstr "Updated"
 msgid "Operations"
 msgstr "Operations"
 
+msgid "‹ previous"
+msgstr "‹ previous"
+
+msgid "next ›"
+msgstr "next ›"
+
+msgid "« first"
+msgstr "« first"
+
+msgid "last »"
+msgstr "last »"
+
 msgid "Author"
 msgstr "Author"
 
@@ -114,11 +126,20 @@ msgstr "Development"
 msgid "Restore"
 msgstr "Restore"
 
+msgid "Created"
+msgstr "Created"
+
 msgid "Draft"
 msgstr "Draft"
 
+msgid "To"
+msgstr "To"
+
 msgid "Moderated content"
 msgstr "Moderated content"
+
+msgid "From"
+msgstr "From"
 
 msgid "Moderation state"
 msgstr "Moderation state"
@@ -128,6 +149,9 @@ msgstr "Archived"
 
 msgid "Wide"
 msgstr "Wide"
+
+msgid "Original language"
+msgstr "Original language"
 
 msgid "Editorial"
 msgstr "Editorial"

@@ -80,6 +80,7 @@
         "drupal/media_watermark": "^1.0@alpha",
         "drupal/metatag": "^1.5",
         "drupal/pathauto": "^1.1",
+        "drupal/redirect": "^1.1",
         "drupal/refreshless": "^1.0@alpha",
         "drupal/seo_checklist": "^4.1",
         "drupal/simple_sitemap": "^2.12",

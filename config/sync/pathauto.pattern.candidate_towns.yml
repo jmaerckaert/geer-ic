@@ -1,23 +1,23 @@
-uuid: c752f189-cb01-41a4-a0ab-a18f0cdd0184
+uuid: d0a807f1-9f48-4212-986b-59e8cb07ae55
 langcode: fr
 status: true
 dependencies:
   module:
     - ctools
     - taxonomy
-id: categories_articles
-label: 'Categories articles'
+id: candidate_towns
+label: 'Candidate towns'
 type: 'canonical_entities:taxonomy_term'
-pattern: '/articles/categorie/[term:name]'
+pattern: '/candidats/village/[term:name]'
 selection_criteria:
-  dca67837-a41e-46d6-a14e-cc19ffbf62bb:
+  876eb756-a3b5-4d10-9527-70bd20dec396:
     id: 'entity_bundle:taxonomy_term'
     bundles:
-      tags: tags
+      towns: towns
     negate: false
     context_mapping:
       taxonomy_term: taxonomy_term
-    uuid: dca67837-a41e-46d6-a14e-cc19ffbf62bb
+    uuid: 876eb756-a3b5-4d10-9527-70bd20dec396
 selection_logic: and
 weight: -5
 relationships: {  }

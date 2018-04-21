@@ -19,8 +19,8 @@ contact_message-bundles:
   feedback: feedback
   personal: personal
 node-bundles:
-  candidate: 0
   article: 0
+  candidate: 0
   flexslider_example: 0
   frontpage: 0
   page: 0

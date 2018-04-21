@@ -48,6 +48,7 @@ module:
   google_analytics: 0
   help: 0
   history: 0
+  honeypot: 0
   image: 0
   language: 0
   layout_discovery: 0
@@ -102,7 +103,6 @@ module:
   pathauto: 1
   webform_bootstrap: 1
   ds_extras: 2
-  google_fonts_api: 10
   views: 10
   standard: 1000
 theme:

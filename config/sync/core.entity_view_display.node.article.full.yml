@@ -15,6 +15,7 @@ dependencies:
   module:
     - comment
     - ds
+    - field_formatter_class
     - responsive_image
     - text
     - user
@@ -59,6 +60,7 @@ third_party_settings:
             attributes: ''
     regions:
       top:
+        - content_moderation_control
         - 'dynamic_token_field:node-dates_articles'
       left:
         - field_image
@@ -104,6 +106,11 @@ content:
       view_mode: default
       pager_id: 0
     third_party_settings: {  }
+  content_moderation_control:
+    weight: -20
+    region: top
+    settings: {  }
+    third_party_settings: {  }
   field_article_teaser:
     type: text_default
     weight: 2
@@ -121,14 +128,15 @@ content:
     third_party_settings: {  }
     label: hidden
   field_tags:
-    type: entity_reference_entity_view
+    type: entity_reference_label
     weight: 4
     region: bottom
     label: inline
     settings:
-      view_mode: categories_article
-      link: false
+      link: true
     third_party_settings:
+      field_formatter_class:
+        class: ''
       ds:
         ds_limit: ''
   links:

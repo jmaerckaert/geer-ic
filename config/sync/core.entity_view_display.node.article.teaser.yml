@@ -50,11 +50,16 @@ third_party_settings:
         - field_image
       right:
         - node_title
+        - 'dynamic_token_field:node-dates_articles'
         - field_article_teaser
-        - field_tags
         - 'dynamic_token_field:node-links_button'
         - addtoany
     fields:
+      'dynamic_token_field:node-dates_articles':
+        plugin_id: 'dynamic_token_field:node-dates_articles'
+        weight: 3
+        label: hidden
+        formatter: default
       'dynamic_token_field:node-links_button':
         plugin_id: 'dynamic_token_field:node-links_button'
         weight: 5
@@ -88,7 +93,7 @@ content:
     third_party_settings: {  }
   field_article_teaser:
     type: text_default
-    weight: 3
+    weight: 4
     region: right
     label: hidden
     settings: {  }
@@ -102,19 +107,10 @@ content:
       image_link: content
     third_party_settings: {  }
     label: hidden
-  field_tags:
-    type: entity_reference_label
-    weight: 4
-    region: right
-    settings:
-      link: true
-    third_party_settings:
-      ds:
-        ds_limit: ''
-    label: hidden
 hidden:
   body: true
   comment: true
   field_article_link: true
+  field_tags: true
   langcode: true
   links: true

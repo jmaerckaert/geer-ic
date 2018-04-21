@@ -6,6 +6,7 @@ dependencies:
     - taxonomy.vocabulary.tags
   module:
     - ds
+    - text
 third_party_settings:
   ds:
     layout:
@@ -29,22 +30,18 @@ third_party_settings:
             attributes: ''
     regions:
       main:
-        - taxonomy_term_title
-    fields:
-      taxonomy_term_title:
-        plugin_id: taxonomy_term_title
-        weight: 0
-        label: hidden
-        formatter: default
-        settings:
-          wrapper: h3
-          class: ''
-          link: false
+        - description
 id: taxonomy_term.tags.default
 targetEntityType: taxonomy_term
 bundle: tags
 mode: default
-content: {  }
+content:
+  description:
+    type: text_default
+    weight: 0
+    region: main
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
 hidden:
-  description: true
   langcode: true

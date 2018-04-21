@@ -1,0 +1,10 @@
+uuid: 1da87085-17b1-4977-be18-6e4a41ede740
+langcode: fr
+status: true
+dependencies: {  }
+id: rboto_for_content
+label: 'Rboto for content'
+font_url: 'https://www.google.com/webfonts/family?family=Roboto&subset=latin#300'
+fallback: arial
+selectors: '.fontyourface p, .fontyourface div'
+theme: icgeer

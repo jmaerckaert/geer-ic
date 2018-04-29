@@ -28,6 +28,16 @@ type_settings:
       published: true
       default_revision: true
       weight: 0
+    trash:
+      published: false
+      default_revision: false
+      label: Trash
+      weight: 6
+    work:
+      published: false
+      default_revision: false
+      label: Work
+      weight: 7
   transitions:
     archive:
       label: Archive
@@ -47,6 +57,12 @@ type_settings:
         - archived
       to: published
       weight: 4
+    back_to_draft:
+      label: 'Back to draft'
+      from:
+        - work
+      to: draft
+      weight: 7
     create_new_draft:
       label: 'Create New Draft'
       to: draft
@@ -54,6 +70,12 @@ type_settings:
       from:
         - draft
         - published
+    needs_work:
+      label: 'Needs work'
+      from:
+        - draft
+      to: work
+      weight: 6
     publish:
       label: Publish
       to: published
@@ -61,6 +83,12 @@ type_settings:
       from:
         - draft
         - published
+    to_trash:
+      label: 'To Trash'
+      from:
+        - draft
+      to: trash
+      weight: 5
   entity_types:
     node:
       - article

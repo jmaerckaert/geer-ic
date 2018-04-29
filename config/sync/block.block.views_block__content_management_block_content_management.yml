@@ -1,0 +1,30 @@
+uuid: 75159d89-34e5-40b3-9814-8ff62abbcfb4
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.content_management
+  module:
+    - system
+    - views
+  theme:
+    - icgeer
+id: views_block__content_management_block_content_management
+theme: icgeer
+region: content
+weight: 2
+provider: null
+plugin: 'views_block:content_management-block_content_management'
+settings:
+  id: 'views_block:content_management-block_content_management'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /dashboard-editor
+    negate: false
+    context_mapping: {  }

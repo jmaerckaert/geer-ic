@@ -77,8 +77,10 @@
         "drupal/fontyourface": "^3.2",
         "drupal/gdpr_compliance": "^1.4",
         "drupal/google_analytics": "^2.2",
+        "drupal/honeypot": "^1.27",
         "drupal/login_emailusername": "^1.1",
         "drupal/media_watermark": "^1.0@alpha",
+        "drupal/menu_item_role_access": "^1.0@alpha",
         "drupal/metatag": "^1.5",
         "drupal/pathauto": "^1.1",
         "drupal/redirect": "^1.1",
@@ -154,11 +156,6 @@
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
 			"web/themes/custom/{$name}": ["type:drupal-custom-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"]
-        },
-		"patches": {
-            "drupal/core": {
-                "Modif in order to use Refreshless module.": "patches/refreshless.patch"
-            }
         }
     }
 }

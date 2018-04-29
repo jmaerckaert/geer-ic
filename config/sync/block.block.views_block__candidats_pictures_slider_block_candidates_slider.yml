@@ -12,7 +12,7 @@ dependencies:
 id: views_block__candidats_pictures_slider_block_candidates_slider
 theme: icgeer
 region: content
-weight: 0
+weight: -1
 provider: null
 plugin: 'views_block:candidats_pictures_slider-block_candidates_slider'
 settings:

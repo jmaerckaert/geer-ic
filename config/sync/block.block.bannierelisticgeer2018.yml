@@ -12,7 +12,7 @@ dependencies:
 id: bannierelisticgeer2018
 theme: icgeer
 region: content
-weight: 0
+weight: -2
 provider: null
 plugin: 'block_content:2bdd7711-631f-49ca-9f2f-6d6c974a11e9'
 settings:

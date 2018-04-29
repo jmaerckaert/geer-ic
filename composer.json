@@ -49,6 +49,10 @@
 		{
 			"type": "github",
 			"url": "https://github.com/jmaerckaert/fontawesome.git"
+        },
+		{
+			"type": "github",
+			"url": "https://github.com/jmaerckaert/redirect_login.git"
         }
     ],
     "require": {
@@ -101,6 +105,7 @@
         "jmaerckaert/jquery.hoverIntent": "master",
         "jmaerckaert/jquery.pause": "master",
         "jmaerckaert/json2": "master",
+		"jmaerckaert/redirect_login": "master",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"

@@ -1,0 +1,20 @@
+uuid: d364b0e5-710e-488b-849d-db420950b6f7
+langcode: fr
+status: true
+dependencies: {  }
+id: published
+workflow: editorial
+transitions:
+  publish: publish
+roles:
+  authenticated: authenticated
+  member: member
+  editor: editor
+  administrator: administrator
+author: true
+emails: info@icgeer.be
+subject: Publié
+body:
+  value: "<p>Votre article [node:title] a été publié.</p>\r\n"
+  format: basic_html
+label: Published

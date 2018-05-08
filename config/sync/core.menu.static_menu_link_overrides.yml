@@ -203,6 +203,18 @@ definitions:
     parent: system.admin
     expanded: false
     enabled: true
+  user__page:
+    parent: 'menu_link_content:cd2f6d10-dea7-4506-88d0-ffe2dc84e261'
+    menu_name: account
+    enabled: true
+    expanded: false
+    weight: -50
+  user__logout:
+    parent: 'menu_link_content:cd2f6d10-dea7-4506-88d0-ffe2dc84e261'
+    menu_name: account
+    weight: -49
+    expanded: false
+    enabled: true
 _core:
   default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM
 langcode: fr

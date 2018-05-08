@@ -1,0 +1,20 @@
+uuid: 155fd90c-e5ff-4700-a034-1f1bb8161581
+langcode: fr
+status: true
+dependencies: {  }
+id: needs_work
+workflow: editorial
+transitions:
+  needs_work: needs_work
+roles:
+  authenticated: authenticated
+  member: member
+  editor: editor
+  administrator: administrator
+author: true
+emails: info@icgeer.be
+subject: 'Needs work'
+body:
+  value: "<p>Votre contenu doit être retravaillé.</p>\r\n"
+  format: full_html
+label: 'Needs work'

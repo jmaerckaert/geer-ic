@@ -2,10 +2,10 @@ schemas:
   bootstrap: 8000
   icgeer: 8000
 favicon:
-  mimetype: image/vnd.microsoft.icon
-  path: ''
+  mimetype: image/png
+  path: 'public://icgeer_logo_2.png'
   url: 'http://geer-ic.loc/themes/custom/icgeer/favicon.ico'
-  use_default: true
+  use_default: false
 table_responsive: '-1'
 table: ''
 features:
@@ -14,8 +14,8 @@ features:
   favicon: true
   node_user_picture: true
 logo:
-  path: ''
+  path: 'public://icgeer_logo_1.png'
   url: ''
-  use_default: true
+  use_default: false
 breadcrumb_home: 1
 langcode: fr

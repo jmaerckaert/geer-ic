@@ -1,0 +1,20 @@
+uuid: 9115f0d1-9f0b-4de2-b1da-5c12b9caf88c
+langcode: fr
+status: true
+dependencies: {  }
+id: new_content
+workflow: editorial
+transitions:
+  create_new_draft: create_new_draft
+  archived_draft: archived_draft
+  back_to_draft: back_to_draft
+roles:
+  editor: editor
+  administrator: administrator
+author: false
+emails: info@icgeer.be
+subject: 'Un article en attente d''approbation'
+body:
+  value: 'Un article est en attente d''approbation.'
+  format: restricted_html
+label: 'New content'

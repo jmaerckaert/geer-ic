@@ -20,3 +20,15 @@ tags:
   twitter_cards_image: '[node:field_candidate_photo:entity:path]'
   twitter_cards_page_url: '[node:url]'
   twitter_cards_type: photo
+  schema_person_address: 'a:3:{s:5:"@type";s:13:"PostalAddress";s:15:"addressLocality";s:27:"[node:field_candidate_town]";s:10:"postalCode";s:4:"4250";}'
+  schema_person_birth_date: 16/09/1982
+  schema_person_description: '[node:body]'
+  schema_person_email: '[node:field_candidate_email]'
+  schema_person_family_name: '[node:field_candidate_lastname]'
+  schema_person_given_name: '[node:field_candidate_name]'
+  schema_person_job_title: '[node:field_candidate_job]'
+  schema_person_name: '[node:title]'
+  schema_person_same_as: 'https://www.facebook.com/jmaerckaert'
+  schema_person_telephone: '[node:field_candidate_telephone]'
+  schema_person_type: Person
+  schema_person_url: 'https://www.facebook.com/jmaerckaert'

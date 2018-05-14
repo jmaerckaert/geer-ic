@@ -286,7 +286,7 @@ display:
         type: normal
         title: Articles
         description: 'Liste d''articles'
-        expanded: false
+        expanded: true
         parent: ''
         weight: -49
         context: '0'

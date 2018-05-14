@@ -7,9 +7,12 @@ dependencies:
     - field.field.node.program.body
     - field.field.node.program.field_program_image
     - field.field.node.program.field_program_theme
+    - image.style.medium
     - node.type.program
   module:
     - ds
+    - field_formatter_class
+    - image
     - text
     - user
 third_party_settings:
@@ -20,43 +23,92 @@ third_party_settings:
       disable_css: false
       entity_classes: all_classes
       settings:
-        classes: {  }
-        wrappers:
-          top: div
-          left: div
-          right: div
-          bottom: div
-        outer_wrapper: div
-        attributes: ''
-        link_attribute: ''
-        link_custom: ''
+        layout:
+          wrapper: div
+          classes:
+            row: row
+          add_layout_class: 1
+          attributes: ''
+        regions:
+          top:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+          left:
+            wrapper: div
+            classes:
+              col-sm-3: col-sm-3
+            add_region_classes: 1
+            attributes: ''
+          right:
+            wrapper: div
+            classes:
+              col-sm-9: col-sm-9
+            add_region_classes: 1
+            attributes: ''
+          bottom:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
     regions:
-      top:
-        - langcode
+      left:
         - field_program_image
-        - field_program_theme
-        - links
+      right:
+        - node_title
         - body
+        - 'dynamic_token_field:node-links_button'
+        - addtoany
+    fields:
+      'dynamic_token_field:node-links_button':
+        plugin_id: 'dynamic_token_field:node-links_button'
+        weight: 3
+        label: hidden
+        formatter: default
+      node_title:
+        plugin_id: node_title
+        weight: 1
+        label: hidden
+        formatter: default
+        settings:
+          link: true
+          wrapper: h2
+          class: ''
 id: node.program.teaser
 targetEntityType: node
 bundle: program
 mode: teaser
 content:
-  body:
-    label: hidden
-    type: text_summary_or_trimmed
-    weight: 101
-    settings:
-      trim_length: 600
-    third_party_settings: {  }
-    region: content
-  links:
-    weight: 100
-    region: content
+  addtoany:
+    weight: 4
+    region: right
     settings: {  }
     third_party_settings: {  }
+  body:
+    type: text_summary_or_trimmed
+    weight: 2
+    region: right
+    label: hidden
+    settings:
+      trim_length: 200
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+  field_program_image:
+    type: image
+    weight: 0
+    region: left
+    label: hidden
+    settings:
+      image_style: medium
+      image_link: content
+    third_party_settings:
+      field_formatter_class:
+        class: ''
 hidden:
-  addtoany: true
-  field_program_image: true
   field_program_theme: true
   langcode: true
+  links: true

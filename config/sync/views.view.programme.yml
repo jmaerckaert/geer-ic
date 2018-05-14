@@ -3,11 +3,14 @@ langcode: fr
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.full
+    - core.entity_view_mode.node.teaser
     - node.type.program
+    - taxonomy.vocabulary.program_themes
   module:
+    - better_exposed_filters
     - ds
     - node
+    - taxonomy
     - user
 id: programme
 label: Programme
@@ -40,7 +43,7 @@ display:
           query_comment: ''
           query_tags: {  }
       exposed_form:
-        type: basic
+        type: bef
         options:
           submit_button: Apply
           reset_button: false
@@ -49,6 +52,24 @@ display:
           expose_sort_order: true
           sort_asc_label: Asc
           sort_desc_label: Desc
+          input_required: false
+          text_input_required: 'Sélectionnez n''importe quel filtre et cliquez sur Appliquer pour voir les résultats'
+          bef:
+            general:
+              allow_secondary: false
+              secondary_label: 'Options avancées'
+              autosubmit: false
+              autosubmit_exclude_textfield: false
+              autosubmit_hide: false
+            field_program_theme_target_id:
+              bef_format: bef_links
+              more_options:
+                bef_select_all_none: false
+                bef_collapsible: false
+                is_secondary: false
+                rewrite:
+                  filter_rewrite_values: ''
+          text_input_required_format: restricted_html
       pager:
         type: none
         options:
@@ -60,7 +81,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: full
+          view_mode: teaser
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -139,6 +160,53 @@ display:
           entity_type: node
           entity_field: type
           plugin_id: bundle
+        field_program_theme_target_id:
+          id: field_program_theme_target_id
+          table: node__field_program_theme
+          field: field_program_theme_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: or
+          value: {  }
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_program_theme_target_id_op
+            label: ''
+            description: ''
+            use_operator: false
+            operator: field_program_theme_target_id_op
+            identifier: field_program_theme_target_id
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              member: '0'
+              editor: '0'
+              administrator: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          type: select
+          limit: true
+          vid: program_themes
+          hierarchy: false
+          error_message: true
+          plugin_id: taxonomy_index_tid
       sorts:
         title:
           id: title
@@ -154,7 +222,7 @@ display:
           exposed: false
           expose:
             label: ''
-      title: Programme
+      title: 'Notre programme'
       header: {  }
       footer: {  }
       empty: {  }
@@ -166,12 +234,14 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
-  page_1:
+  page_program:
     display_plugin: page
-    id: page_1
+    id: page_program
     display_title: Page
     position: 1
     display_options:
@@ -183,6 +253,8 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }

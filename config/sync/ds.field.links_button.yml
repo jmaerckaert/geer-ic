@@ -1,6 +1,6 @@
 id: links_button
 label: 'Links button'
-ui_limit: 'article|*'
+ui_limit: "article|*\r\nprogram|*\r\nproject|*"
 properties:
   content:
     value: "<a class=\"btn btn-primary\" href=\"[node:url:absolute]\">Lire plus</a>\r\n"

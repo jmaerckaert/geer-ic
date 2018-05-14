@@ -1,0 +1,14 @@
+uuid: 6d8ee118-c733-4662-9a15-4cf8a7a1ffcd
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.main
+    - taxonomy.vocabulary.program_themes
+id: program_themes
+label: 'Program themes'
+vocabulary: program_themes
+menu: main
+expanded: false
+depth: 0
+menu_parent: 'main:menu_link_content:02fe5107-35f1-4a1f-b71a-ed842112abce'

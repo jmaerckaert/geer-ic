@@ -1,0 +1,92 @@
+uuid: 8b2d6fde-4fd1-46dc-8da6-a2a30778f157
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.project.body
+    - field.field.node.project.field_project_pictures
+    - image.style.max_650x650
+    - node.type.project
+  module:
+    - ds
+    - field_formatter_class
+    - image
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: bs_2col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        layout:
+          wrapper: div
+          classes:
+            row: row
+          add_layout_class: 1
+          attributes: ''
+        regions:
+          left:
+            wrapper: div
+            classes:
+              col-sm-6: col-sm-6
+            add_region_classes: 1
+            attributes: ''
+          right:
+            wrapper: div
+            classes:
+              col-sm-6: col-sm-6
+            add_region_classes: 1
+            attributes: ''
+    regions:
+      left:
+        - field_project_pictures
+      right:
+        - node_title
+        - body
+        - links
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 1
+        label: hidden
+        formatter: default
+id: node.project.teaser
+targetEntityType: node
+bundle: project
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 2
+    settings:
+      trim_length: 400
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+    region: right
+  field_project_pictures:
+    type: image
+    weight: 0
+    region: left
+    label: hidden
+    settings:
+      image_style: max_650x650
+      image_link: content
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+      ds:
+        ds_limit: '1'
+  links:
+    weight: 3
+    region: right
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  langcode: true

@@ -12,14 +12,14 @@ dependencies:
 id: views_block__candidats_pictures_slider_block_candidates_slider
 theme: icgeer
 region: content
-weight: -1
+weight: 0
 provider: null
 plugin: 'views_block:candidats_pictures_slider-block_candidates_slider'
 settings:
   id: 'views_block:candidats_pictures_slider-block_candidates_slider'
   label: ''
   provider: views
-  label_display: '0'
+  label_display: visible
   views_label: ''
   items_per_page: none
 visibility:

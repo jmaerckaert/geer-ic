@@ -1,0 +1,41 @@
+uuid: 455ea7b5-032e-42c1-86d9-b84b23880863
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.project.body
+    - field.field.node.project.field_project_pictures
+    - node.type.project
+  module:
+    - image
+    - text
+    - user
+id: node.project.default
+targetEntityType: node
+bundle: project
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_project_pictures:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  langcode: true

@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.candidate.body
+    - field.field.node.candidate.field_candidat_mandats
     - field.field.node.candidate.field_candidate_email
     - field.field.node.candidate.field_candidate_job
     - field.field.node.candidate.field_candidate_lastname
@@ -14,12 +15,12 @@ dependencies:
     - field.field.node.candidate.field_candidate_statut
     - field.field.node.candidate.field_candidate_telephone
     - field.field.node.candidate.field_candidate_town
-    - image.style.medium
+    - image.style.max_650x650
     - node.type.candidate
   module:
     - ds
+    - field_formatter_class
     - image
-    - taxonomy
     - telephone
     - user
 third_party_settings:
@@ -56,6 +57,7 @@ third_party_settings:
         - node_title
         - field_candidate_position
         - field_candidate_town
+        - field_candidat_mandats
         - field_candidate_telephone
         - field_candidate_email
         - links
@@ -76,13 +78,21 @@ bundle: candidate
 mode: teaser
 content:
   addtoany:
-    weight: 7
+    weight: 8
     region: right
     settings: {  }
     third_party_settings: {  }
+  field_candidat_mandats:
+    type: string
+    weight: 4
+    region: right
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
   field_candidate_email:
     type: email_mailto
-    weight: 5
+    weight: 6
     region: right
     label: inline
     settings: {  }
@@ -93,9 +103,11 @@ content:
     region: left
     label: hidden
     settings:
-      image_style: medium
+      image_style: max_650x650
       image_link: content
-    third_party_settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: ''
   field_candidate_position:
     type: string
     weight: 2
@@ -106,21 +118,22 @@ content:
     third_party_settings: {  }
   field_candidate_telephone:
     type: telephone_link
-    weight: 4
+    weight: 5
     region: right
     label: inline
     settings:
       title: ''
     third_party_settings: {  }
   field_candidate_town:
-    type: entity_reference_rss_category
+    type: entity_reference_label
     weight: 3
     region: right
-    label: visually_hidden
-    settings: {  }
+    label: inline
+    settings:
+      link: true
     third_party_settings: {  }
   links:
-    weight: 6
+    weight: 7
     region: right
     settings: {  }
     third_party_settings: {  }

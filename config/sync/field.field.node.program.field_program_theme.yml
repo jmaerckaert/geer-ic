@@ -1,0 +1,29 @@
+uuid: 2096d6aa-83ac-42a7-b6d7-1acda20b57d6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_program_theme
+    - node.type.program
+    - taxonomy.vocabulary.program_themes
+id: node.program.field_program_theme
+field_name: field_program_theme
+entity_type: node
+bundle: program
+label: Theme
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      program_themes: program_themes
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

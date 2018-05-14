@@ -1,22 +1,22 @@
-uuid: 7b5dcfc4-1161-4d68-b3ec-1af3135867ad
+uuid: cd038ba0-2677-4455-920d-5dd0294103b3
 langcode: fr
 status: true
 dependencies:
   config:
-    - views.view.candidates_management
+    - views.view.our_projects
   module:
     - system
     - views
   theme:
     - icgeer
-id: views_block__candidates_management_block_candidate_management
+id: views_block__our_projects_block_our_projects
 theme: icgeer
 region: content
-weight: 2
+weight: -1
 provider: null
-plugin: 'views_block:candidates_management-block_candidate_management'
+plugin: 'views_block:our_projects-block_our_projects'
 settings:
-  id: 'views_block:candidates_management-block_candidate_management'
+  id: 'views_block:our_projects-block_our_projects'
   label: ''
   provider: views
   label_display: visible
@@ -25,6 +25,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /dashboard-editor
+    pages: '<front>'
     negate: false
     context_mapping: {  }

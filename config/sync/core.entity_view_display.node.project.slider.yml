@@ -1,0 +1,38 @@
+uuid: b384c14c-cb44-4bd0-91b7-3798b7dde3b7
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.slider
+    - field.field.node.project.body
+    - field.field.node.project.field_project_pictures
+    - image.style.medium
+    - node.type.project
+  module:
+    - ds
+    - field_formatter_class
+    - image
+    - user
+id: node.project.slider
+targetEntityType: node
+bundle: project
+mode: slider
+content:
+  field_project_pictures:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: medium
+      image_link: ''
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+      ds:
+        ds_limit: '1'
+    type: image
+    region: content
+hidden:
+  addtoany: true
+  body: true
+  langcode: true
+  links: true

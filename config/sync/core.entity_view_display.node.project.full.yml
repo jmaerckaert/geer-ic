@@ -1,0 +1,101 @@
+uuid: 943663bc-4999-42ef-9703-da07f20e7371
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.project.body
+    - field.field.node.project.field_project_pictures
+    - image.style.large
+    - node.type.project
+  module:
+    - ds
+    - field_formatter_class
+    - flexslider_fields
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: bs_2col_stacked
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        layout:
+          wrapper: div
+          classes:
+            row: row
+          add_layout_class: 1
+          attributes: ''
+        regions:
+          top:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+          left:
+            wrapper: div
+            classes:
+              col-sm-6: col-sm-6
+            add_region_classes: 1
+            attributes: ''
+          right:
+            wrapper: div
+            classes:
+              col-sm-6: col-sm-6
+            add_region_classes: 1
+            attributes: ''
+          bottom:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+    regions:
+      left:
+        - field_project_pictures
+      right:
+        - body
+        - links
+        - addtoany
+id: node.project.full
+targetEntityType: node
+bundle: project
+mode: full
+content:
+  addtoany:
+    weight: 3
+    region: right
+    settings: {  }
+    third_party_settings: {  }
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: right
+  field_project_pictures:
+    weight: 0
+    label: hidden
+    settings:
+      optionset: default
+      image_style: large
+      caption: '0'
+      image_link: ''
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+      ds:
+        ds_limit: ''
+    type: flexslider
+    region: left
+  links:
+    weight: 2
+    region: right
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

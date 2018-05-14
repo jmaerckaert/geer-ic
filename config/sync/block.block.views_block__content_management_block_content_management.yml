@@ -12,7 +12,7 @@ dependencies:
 id: views_block__content_management_block_content_management
 theme: icgeer
 region: content
-weight: 2
+weight: 3
 provider: null
 plugin: 'views_block:content_management-block_content_management'
 settings:

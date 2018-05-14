@@ -1,18 +1,18 @@
-uuid: b684594c-9595-4637-8c95-5d19443f1399
+uuid: a88d3981-2a62-422e-9eca-a9ee5577743b
 langcode: fr
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.slider
-    - field.storage.node.field_candidate_position
-    - node.type.candidate
+    - field.storage.node.field_project_pictures
+    - image.style.max_650x650
+    - node.type.project
   module:
-    - ds
     - flexslider_views
+    - image
     - node
     - user
-id: candidats_pictures_slider
-label: 'Candidats pictures slider'
+id: our_projects
+label: 'Nos projets'
 module: views
 description: ''
 tag: ''
@@ -44,9 +44,9 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Appliquer
+          submit_button: Apply
           reset_button: false
-          reset_button_label: Réinitialiser
+          reset_button_label: Reset
           exposed_sorts_label: 'Sort by'
           expose_sort_order: true
           sort_asc_label: Asc
@@ -54,32 +54,23 @@ display:
       pager:
         type: none
         options:
+          items_per_page: 0
           offset: 0
       style:
         type: flexslider
         options:
           grouping: {  }
           flexslider: null
-          optionset: flexslider_icgeer
-          captionfield: nothing
+          optionset: flexslider_icgeer_projects
+          captionfield: title
           id: ''
       row:
-        type: 'ds_entity:node'
+        type: fields
         options:
-          relationship: none
-          view_mode: slider
-          alternating_fieldset:
-            alternating: false
-            allpages: false
-            item_0: teaser
-            item_1: teaser
-            item_2: teaser
-            item_3: teaser
-            item_4: teaser
-          grouping_fieldset:
-            group: false
-          advanced_fieldset:
-            advanced: false
+          default_field_elements: true
+          inline: {  }
+          separator: ''
+          hide_empty: false
       fields:
         title:
           id: title
@@ -132,7 +123,7 @@ display:
           click_sort_column: value
           type: string
           settings:
-            link_to_entity: false
+            link_to_entity: true
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -144,122 +135,6 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-        field_candidate_position:
-          id: field_candidate_position
-          table: node__field_candidate_position
-          field: field_candidate_position
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: true
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: value
-          type: string
-          settings:
-            link_to_entity: false
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-          plugin_id: field
-        view_node:
-          id: view_node
-          table: node
-          field: view_node
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: true
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          text: voir
-          output_url_as_text: true
-          absolute: false
-          entity_type: node
-          plugin_id: entity_link
         nothing:
           id: nothing
           table: views
@@ -271,7 +146,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"candidate-title\"><a href=\"{{ view_node }}\">{{ title }}</a></div>\n<div class=\"candidate-position\"><a href=\"{{ view_node }}\">{{ field_candidate_position }}</a></div>"
+            text: ''
             make_link: false
             path: ''
             absolute: false
@@ -309,6 +184,70 @@ display:
           empty_zero: false
           hide_alter_empty: false
           plugin_id: custom
+        field_project_pictures:
+          id: field_project_pictures
+          table: node__field_project_pictures
+          field: field_project_pictures
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: image
+          settings:
+            image_style: max_650x650
+            image_link: content
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 1
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
       filters:
         status:
           value: '1'
@@ -326,12 +265,27 @@ display:
           table: node_field_data
           field: type
           value:
-            candidate: candidate
+            project: project
           entity_type: node
           entity_field: type
           plugin_id: bundle
-      sorts: {  }
-      title: 'Nos candidats'
+      sorts:
+        created:
+          id: created
+          table: node_field_data
+          field: created
+          order: DESC
+          entity_type: node
+          entity_field: created
+          plugin_id: date
+          relationship: none
+          group_type: group
+          admin_label: ''
+          exposed: false
+          expose:
+            label: ''
+          granularity: second
+      title: 'Nos projets'
       header: {  }
       footer: {  }
       empty: {  }
@@ -346,16 +300,15 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.field_candidate_position'
-  block_candidates_slider:
+        - 'config:field.storage.node.field_project_pictures'
+  block_our_projects:
     display_plugin: block
-    id: block_candidates_slider
+    id: block_our_projects
     display_title: Block
     position: 1
     display_options:
       display_extenders:
         metatag_display_extender: {  }
-      block_description: 'Photos des candidats'
     cache_metadata:
       max-age: -1
       contexts:
@@ -364,4 +317,4 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.field_candidate_position'
+        - 'config:field.storage.node.field_project_pictures'

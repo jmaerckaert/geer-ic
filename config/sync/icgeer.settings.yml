@@ -14,7 +14,7 @@ features:
   favicon: true
   node_user_picture: true
 logo:
-  path: 'public://icgeer_logo_1.png'
+  path: 'public://logo-icgeer_0.png'
   url: ''
   use_default: false
 breadcrumb_home: 1

@@ -1,0 +1,23 @@
+uuid: 4c66e987-1115-4ca0-aa4c-303ed89ae838
+langcode: fr
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: program_theme
+label: 'program theme'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'programme-theme/[term:name]'
+selection_criteria:
+  cacbd44f-6e4b-4a5b-bfe2-8cd600ed1aed:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      program_themes: program_themes
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: cacbd44f-6e4b-4a5b-bfe2-8cd600ed1aed
+selection_logic: and
+weight: -5
+relationships: {  }

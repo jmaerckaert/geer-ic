@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2018-05-14 07:34+0000\n"
-"PO-Revision-Date: 2018-05-14 07:34+0000\n"
+"POT-Creation-Date: 2018-05-16 10:34+0000\n"
+"PO-Revision-Date: 2018-05-16 10:34+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -204,6 +204,9 @@ msgstr "Je l'ai lu"
 msgid "Username or email address."
 msgstr "Nom d'utilisateur ou adresse email"
 
+msgid "Privacy and Cookie policy"
+msgstr "Politique de confidentialité et de cookies"
+
 msgid ""
 "<a href='@href' target='_blank'>Cookie & Privacy Policy for "
 "Website</a>"
@@ -213,4 +216,7 @@ msgstr ""
 
 msgid "I have read and agree to the Cookie & Privacy Policy"
 msgstr "J'ai lu et j'accepte les cookies et la politique de confidentialité"
+
+msgid "Last updated @date by @user"
+msgstr "Dernière mise à jour @date par @user"
 

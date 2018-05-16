@@ -117,8 +117,8 @@ index 0000000..bc24e31
 +<p>Si vous avez désactivé tous les cookies de votre navigateur, nous collecterons toujours des données générales sur votre navigation (par exemple, un enregistrement d'un visiteur sur notre site Web), mais ils seront moins précis et votre visite ne sera pas suivie.</p>
 diff --git a/src/Controller/PagePolicy.php b/src/Controller/PagePolicy.php
 index f68c458..4950a68 100644
---- a/src/Controller/PagePolicy.php
-+++ b/src/Controller/PagePolicy.php
+--- a/web/modules/contrib/gdpr_compliance/src/Controller/PagePolicy.php
++++ b/web/modules/contrib/gdpr_compliance/src/Controller/PagePolicy.php
 @@ -61,7 +61,7 @@ class PagePolicy extends ControllerBase {
  
      $lang = $languageManager->getCurrentLanguage()->getId();

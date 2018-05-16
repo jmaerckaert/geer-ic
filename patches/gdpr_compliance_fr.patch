@@ -1,0 +1,138 @@
+diff --git a/assets/policy/policy-fr.html b/assets/policy/policy-fr.html
+new file mode 100644
+index 0000000..bc24e31
+--- /dev/null
++++ b/assets/policy/policy-fr.html
+@@ -0,0 +1,111 @@
++<p><i>Dernière mise à jour: {{ changed }}</i></p>
++
++<ul>
++  <li><a href="#legal-dpn">Avis relatif à la protection des données</a> - des informations sur la façon dont vos données personnelles pourraient être utilisées lorsque vous visitez ce site.</li>
++  <li><a href="#legal-cookies">Informations sur les cookies</a> - informations sur les cookies et notre site Web, y compris comment <a href="#clear-cookies">désactiver</a>.</li>
++</ul>
++
++<h2 id="legal-dpn">Avis relatif à la protection des données </h2>
++<p>En vertu de la législation européenne, l'un de vos droits consiste à ce que vous soyez obligatoirement informé à chaque fois que des données à caractère personnel vous concernant - également désignées sous le nom d'«informations personnelles» - sont traitées (c'est-à-dire font l'objet d'une collecte, d'une utilisation ou d'un stockage) de la part de quelque organisation que ce soit, y compris d'une institution de l'UE. Vous êtes en droit de connaître les détails et la finalité de ce traitement.</p>
++<p>Certains des services proposés sur notre site web exigent le traitement des données à caractère personnel vous concernant. Dans ces cas de figure, des liens sont mis à disposition sur ces pages; ils vous renvoient aux informations spécifiques contenues dans les avis relatifs à la protection des données et qui concernent l'aspect du traitement.</p>
++<p>Nous vous livrons ici un aperçu de certaines des modalités de traitement employées par ce site web en ce qui concerne vos données à caractère personnel, y compris l'utilisation des
++  <a href="#legal-cookies">cookies</a> et
++  <a href="#Social-media">médias sociaux</a>.</p>
++
++<h4>Vos données à caractère personnel et notre site web</h4>
++<ul>
++  <li>Nous collectons vos informations personnelles uniquement dans la mesure nécessaire à la réalisation d'un objectif précis lié aux missions qui nous incombent.
++  </li>
++  <li>nous ne divulguons jamais vos données à caractère personnel à des fins de marketing direct;</li>
++  <li>nous ne réutilisons pas les informations à une autre fin que celle que nous avons déclarée;</li>
++  <li>nous mettons en place des mesures visant à garantir que vos données sont actualisées et traitées en toute sécurité;</li>
++  <li>dans certaines conditions définies par la législation, nous sommes autorisés à divulguer vos informations à des tiers (tels que l'Office européen de lutte antifraude, la Cour des comptes ou des autorités répressives) si cette mesure se révèle nécessaire et proportionnée à des finalités spécifiques et licites.</li>
++  <li>vous avez le droit d'accéder à vos informations à caractère personnel, le droit de les faire corriger et le droit d'introduire un recours à tout moment si vous estimez qu'il y a eu atteinte à vos droits en matière de protection des données;</li>
++  <li>nous ne conservons pas vos informations personnelles plus longtemps que nécessaire dans le but pour lequel nous les avons recueillies;</li>
++  <li> toutefois, il se peut que nous conservions vos informations pendant une période plus longue à des fins historiques, statistiques ou scientifiques, moyennant des garanties appropriées.</li>
++</ul>
++
++<h4>Cookies</h4>
++<p><a href="#legal-cookies">Cookies</a> sont de courts fichiers texte stockés par un site web sur le dispositif d'un utilisateur (ordinateur, tablette ou téléphone).</p>
++<p>Les cookies sont utilisés pour permettre le fonctionnement technique d'un site web, ou pour recueillir des statistiques.</p>
++<p>Les cookies sont également utilisés de manière classique pour acquérir une expérience plus personnalisée concernant un utilisateur, par exemple quand un service en ligne se souvient de votre profil d'utilisateur sans que vous ayez à vous connecter.</p>
++<p>Lorsque vous visitez notre site web, nous pouvons recueillir des données concernant l'historique de votre navigation, telles que votre adresse IP, la page que vous avez consultée, l'heure de votre visite et le site web qui vous a redirigé vers nous.</p>
++<p>Ces informations sont utilisées pour compiler des statistiques agrégées et anonymes en vue d'améliorer à la fois nos services et votre expérience d'utilisateur.</p>
++<p>Lorsque vous vous rendez sur le site, nous conservons l'historique de navigation relatif à votre visite pendant une durée maximale de 13 mois. Les informations sont ensuite effacées.</p>
++<p>Si ne vous souhaitez pas que vos données figurent dans nos statistiques anonymisées et agrégées, vous pouvez choisir cette option sur notre page relative aux <a href="#clear-cookies">ici</a>.</p>
++<p>Consultez notre page consacrée aux <a href="#legal-cookies">cookies</a> ipour en savoir davantage sur les types de cookies utilisés par ce site web.</p>
++
++<h4>Médias sociaux</h4>
++<p>Nous utilisons les médias sociaux pour présenter notre travail par des canaux modernes et bénéficiant d'une utilisation très répandue.</p>
++<p>L'utilisation que nous faisons des médias sociaux est particulièrement mise en évidence sur ce site web.</p>
++<p>Par exemple, vous pouvez visionner des vidéos du CEPD que nous chargeons sur la page YouTube et suivre les liens auxquels notre site web renvoie sur Twitter et LinkedIn.</p>
++<p>Les cookies ne sont pas paramétrés par notre système d'affichage des boutons de médias sociaux servant à vous connecter à ces services au moment où les pages de notre site web sont chargées sur votre ordinateur (ou sur d'autres appareils) ou à partir de composants de ces mêmes services intégrés à nos pages web.</p>
++<p>Chacun des médias sociaux possède sa propre politique quant aux modalités de traitement de vos données à caractère personnel lors de l'accès à leurs sites. Ainsi, par exemple, si vous choisissez de regarder l'une de nos vidéos sur YouTube, votre consentement explicite à la réception de cookies 
++  <a href="https://www.youtube.com/static?template=privacy_guidelines">YouTube</a>
++  vous sera demandé; si vous suivez nos activités sur Twitter, il vous sera demandé d'accepter explicitement les cookies <a href="https://twitter.com/privacy?lang=en">Twitter</a>; la même procédure s'applique à Google, Facebook and LinkedIn.</p>
++<p>Si vous avez la moindre préoccupation ou question au sujet de l'utilisation de vos données à caractère personnel, vous devriez prendre attentivement connaissance des politiques de ces médias en matière de confidentialité avant d'y avoir recours.</p>
++
++<h4>Traitement des réclamations</h4>
++
++<h5>Quels types de données personnelles le site Web traite-t-il?</h5>
++<p>Nous traitons les données personnelles soumises par les visiteurs du site. Cela inclura les noms, les coordonnées ainsi que le contenu des allégations (dans la mesure où ces dernières sont qualifiées de données personnelles).</p>
++
++<h5>Qui peut recevoir mes données personnelles?</h5>
++<p>Le dossier contenant vos données personnelles est accessible aux membres concernés de notre personnel. Tous les accès aux dossiers sont enregistrés.</p>
++
++<h5>Quels sont mes droits?</h5>
++<p>Vous avez le droit d'accéder aux données personnelles que nous détenons à votre sujet et de les faire rectifier si nécessaire. Dans certains cas, vous avez également le droit de bloquer ou d'effacer vos données ou de vous opposer à leur traitement.</p>
++<p>Pour exercer ces droits, veuillez nous <a href="/contact">contacter</a>. Nous vous répondrons dans les trois mois.</p>
++
++<h5>Combien de temps conservez-vous mes données?</h5>
++<p>Nous conservons les fichiers journaux, y compris vos données personnelles, jusqu'à deux ans.</p>
++
++<h5>Qui puis-je contacter?</h5>
++<p>Vous pouvez nous contacter comme suit:</p>
++<ul>
++  <li>e-mail: <a href="mailto:{{mail}}">{{mail}}</a>;</li>
++  <li>Vous pouvez trouver les coordonnées complètes sur la page de <a href="/contact">contact</a> du site.</li>
++</ul>
++<br><br>
++<h2 id="legal-cookies">Cookies</h2>
++<p>Nous utilisons des <a href="#cookies">cookies</a> sur notre site web pour son fonctionnement technique et pour la collecte de statistiques. Un cookie est un petit morceau de données qu'un site Web stocke sur l'ordinateur ou l'appareil mobile du visiteur.</p>
++<p>Le tableau sur cette page répertorie les cookies que ce site utilise et décrit leur but.</p>
++<p>Vous trouverez également plus de détails sur les cookies relatifs à nos réseaux sociaux et Google Analytics, le service que nous utilisons pour nos statistiques.</p>
++
++<h4>Cookies de médias sociaux</h4>
++<p>Nous utilisons des plateformes de médias sociaux. Notre présence dans les communautés Twitter, Facebook, Google, YouTube et LinkedIn renforce notre présence et notre visibilité en ligne.</p>
++<ul>
++  <li>Le site ne crée pas de cookies avec l'affichage de liens vers nos canaux de médias sociaux lorsque vous naviguez sur notre site Web;</li>
++  <li>Vous pouvez regarder des vidéos que nous téléchargeons (incorporons) sur notre page YouTube.
++Vous pouvez également suivre les liens de notre site Web vers les plateformes de médias sociaux;</li>
++  <li>Pour visionner une vidéo sur notre site Web, un message vous avertit que vous devez accepter les cookies YouTube pour le faire.
++    <a href="https://www.youtube.com/static?template=privacy_guidelines">YouTube</a>
++    YouTube a ses propres cookies et politiques de confidentialité sur lesquels nous n'avons aucun contrôle. Il n'y a aucune installation de cookies de YouTube tant que vous n'avez pas consenti aux cookies de YouTube;</li>
++</ul>
++<h4>Google Analytics</h4>
++<p>Nous utilisons Google Analytics, un service d'analyse de site internet fourni par Google Inc. («Google»). Google Analytics utilise des «cookies», qui sont des fichiers texte placés sur votre ordinateur, pour aider le site Web à analyser l'utilisation du site par les utilisateurs. Les informations générées par les cookies concernant votre utilisation du site (y compris votre adresse IP) seront transmises et stockées par Google sur des serveurs situés aux États-Unis. </p>
++<p>En cas d'activation de l'anonymisation IP, Google tronquera / anonymisera le dernier octet de l'adresse IP pour les États membres de l'Union européenne ainsi que pour les autres parties à l'accord sur l'Espace économique européen. Seulement dans des cas exceptionnels, l'adresse IP complète est envoyée et raccourcie par les serveurs de Google aux États-Unis.
++</p>
++<p>Google utilisera ces informations dans le but d'évaluer votre utilisation du site Web, de compiler des rapports sur l'activité du site Web pour les opérateurs de site Web et de fournir d'autres services relatifs à l'activité du site Web et à l'utilisation d'Internet au fournisseur de site Web. Google n'associera pas votre adresse IP à d'autres données détenues par Google.
++</p>
++<p>Vous pouvez refuser l'utilisation de cookies en sélectionnant les paramètres appropriés sur votre navigateur. Cependant, nous soulignons que si vous faites cela, vous ne pourrez peut-être pas utiliser toutes les fonctionnalités de ce site Web.
++</p>
++
++
++<h4 id="clear-cookies">Désinscription</h4>
++<p>Par défaut, l'expérience de navigation des visiteurs du site est suivie par Google Analytics afin de produire des statistiques anonymisées.</p>
++<p>En outre, vous pouvez empêcher la collecte et l'utilisation des données par Google (cookies et adresse IP) en téléchargeant et en installant le plug-in du navigateur disponible sous https://tools.google.com/dlpage/gaoptout?hl=fr. Veuillez noter que sur ce site, le code Google Analytics est complété par "gat._anonymizeIp ();" pour assurer une collecte anonymisée d'adresses IP (masquage IP).
++</p>
++<p><button id="gdpr-clear-cookie" data-done="Clear cookie: done!">Effacer le cookie du site Web.</button></p>
++
++<h4>Ne pas suivre les préférences</h4>
++<p><em>Ne pas suivre </ em> est une fonction qui permet aux visiteurs de ne pas être suivis par des sites Web à quelque fin que ce soit, y compris l'utilisation de services d'analyse, de réseaux publicitaires et de plateformes sociales. Ne pas suivre les options sont disponibles dans un certain nombre de navigateurs, y compris:</p>
++<ul>
++  <li><a href="https://support.mozilla.org/en-US/kb/how-do-i-turn-do-not-track-feature" title="Firefox">Firefox</a></li>
++  <li><a href="https://support.google.com/chrome/answer/114836?hl=en&amp;ref_topic=3421433" title="Chrome">Chrome</a></li>
++  <li><a href="http://help.apple.com/safari/mac/9.0/#/sfri40732" title="Safari">Safari</a></li>
++  <li><a href="http://help.opera.com/Windows/12.10/en/notrack.html" title="Opera">Opera</a></li>
++</ul>
++
++<p>Si vous activez <em> ne suivez pas </ em> dans votre navigateur Web, Google Analytics respectera votre choix. Vous ne serez pas suivi. Ceci s'ajoute à votre désengagement de l'agrégation et de l'analyse des données pour les statistiques de notre site Web;</p>
++<p>Si vous avez désactivé tous les cookies de votre navigateur, nous collecterons toujours des données générales sur votre navigation (par exemple, un enregistrement d'un visiteur sur notre site Web), mais ils seront moins précis et votre visite ne sera pas suivie.</p>
+diff --git a/src/Controller/PagePolicy.php b/src/Controller/PagePolicy.php
+index f68c458..4950a68 100644
+--- a/src/Controller/PagePolicy.php
++++ b/src/Controller/PagePolicy.php
+@@ -61,7 +61,7 @@ class PagePolicy extends ControllerBase {
+ 
+     $lang = $languageManager->getCurrentLanguage()->getId();
+     $this->lang = 'en';
+-    $langs = ['en', 'ru'];
++    $langs = ['en', 'ru', 'fr'];
+     if (in_array($lang, $langs)) {
+       $this->lang = $lang;
+     }
+@@ -74,6 +74,7 @@ class PagePolicy extends ControllerBase {
+     $titles = [
+       'en' => $this->t('Privacy and Cookie policy'),
+       'ru' => $this->t('Agreement on the use of personal data'),
++      'fr' => $this->t('Politique de confidentialité et de cookies'),
+     ];
+     $title = $titles[$this->lang];
+     return $title;

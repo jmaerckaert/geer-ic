@@ -1,8 +1,8 @@
-diff --git a/assets/policy/policy-fr.html b/assets/policy/policy-fr.html
+diff --git a/web/modules/contrib/gdpr_compliance/assets/policy/policy-fr.html b/web/modules/contrib/gdpr_compliance/assets/policy/policy-fr.html
 new file mode 100644
 index 0000000..bc24e31
 --- /dev/null
-+++ b/assets/policy/policy-fr.html
++++ b/web/modules/contrib/gdpr_compliance/assets/policy/policy-fr.html
 @@ -0,0 +1,111 @@
 +<p><i>Dernière mise à jour: {{ changed }}</i></p>
 +

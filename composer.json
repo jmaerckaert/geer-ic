@@ -103,7 +103,7 @@
         "drupal/views_slideshow": "^4.6",
         "drupal/webform": "^5.0@RC",
         "drush/drush": "^9.2",
-		"itsjavi/fontawesome-iconpicker": "master",
+        "itsjavi/fontawesome-iconpicker": "master",
         "jmaerckaert/candidate_webform": "master",
         "jmaerckaert/chosen": "master",
         "jmaerckaert/flexslider": "master",

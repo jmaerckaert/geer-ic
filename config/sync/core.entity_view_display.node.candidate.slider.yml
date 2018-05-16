@@ -5,12 +5,14 @@ dependencies:
   config:
     - core.entity_view_mode.node.slider
     - field.field.node.candidate.body
+    - field.field.node.candidate.field_candidat_mandats
     - field.field.node.candidate.field_candidate_email
+    - field.field.node.candidate.field_candidate_formation
     - field.field.node.candidate.field_candidate_job
     - field.field.node.candidate.field_candidate_lastname
     - field.field.node.candidate.field_candidate_name
     - field.field.node.candidate.field_candidate_photo
-    - field.field.node.candidate.field_candidate_position
+    - field.field.node.candidate.field_candidate_siteweb
     - field.field.node.candidate.field_candidate_statut
     - field.field.node.candidate.field_candidate_telephone
     - field.field.node.candidate.field_candidate_town
@@ -64,11 +66,13 @@ content:
 hidden:
   addtoany: true
   body: true
+  field_candidat_mandats: true
   field_candidate_email: true
+  field_candidate_formation: true
   field_candidate_job: true
   field_candidate_lastname: true
   field_candidate_name: true
-  field_candidate_position: true
+  field_candidate_siteweb: true
   field_candidate_statut: true
   field_candidate_telephone: true
   field_candidate_town: true

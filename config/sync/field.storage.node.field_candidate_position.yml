@@ -1,4 +1,4 @@
-uuid: dc728a9a-6474-4eb6-a50e-291fe9a4ad97
+uuid: 578c5675-d524-4c0b-bfa4-dcebde457393
 langcode: fr
 status: true
 dependencies:
@@ -7,11 +7,10 @@ dependencies:
 id: node.field_candidate_position
 field_name: field_candidate_position
 entity_type: node
-type: string
+type: integer
 settings:
-  max_length: 60
-  is_ascii: false
-  case_sensitive: false
+  unsigned: false
+  size: normal
 module: core
 locked: false
 cardinality: 1

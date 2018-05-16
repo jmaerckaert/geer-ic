@@ -7,11 +7,13 @@ dependencies:
     - field.field.node.candidate.body
     - field.field.node.candidate.field_candidat_mandats
     - field.field.node.candidate.field_candidate_email
+    - field.field.node.candidate.field_candidate_formation
     - field.field.node.candidate.field_candidate_job
     - field.field.node.candidate.field_candidate_lastname
     - field.field.node.candidate.field_candidate_name
     - field.field.node.candidate.field_candidate_photo
     - field.field.node.candidate.field_candidate_position
+    - field.field.node.candidate.field_candidate_siteweb
     - field.field.node.candidate.field_candidate_statut
     - field.field.node.candidate.field_candidate_telephone
     - field.field.node.candidate.field_candidate_town
@@ -53,9 +55,9 @@ third_party_settings:
     regions:
       left:
         - field_candidate_photo
+        - field_candidate_position
       right:
         - node_title
-        - field_candidate_position
         - field_candidate_town
         - field_candidat_mandats
         - field_candidate_telephone
@@ -109,12 +111,13 @@ content:
       field_formatter_class:
         class: ''
   field_candidate_position:
-    type: string
+    type: number_integer
     weight: 2
-    region: right
+    region: left
     label: inline
     settings:
-      link_to_entity: false
+      thousand_separator: ''
+      prefix_suffix: true
     third_party_settings: {  }
   field_candidate_telephone:
     type: telephone_link
@@ -139,8 +142,10 @@ content:
     third_party_settings: {  }
 hidden:
   body: true
+  field_candidate_formation: true
   field_candidate_job: true
   field_candidate_lastname: true
   field_candidate_name: true
+  field_candidate_siteweb: true
   field_candidate_statut: true
   langcode: true

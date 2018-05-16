@@ -8,16 +8,16 @@ dependencies:
 id: program_theme
 label: 'program theme'
 type: 'canonical_entities:taxonomy_term'
-pattern: 'programme-theme/[term:name]'
+pattern: 'programme/theme/[term:name]'
 selection_criteria:
-  cacbd44f-6e4b-4a5b-bfe2-8cd600ed1aed:
+  0337cf14-e9ec-4f01-95af-4f7bc3407378:
     id: 'entity_bundle:taxonomy_term'
     bundles:
       program_themes: program_themes
     negate: false
     context_mapping:
       taxonomy_term: taxonomy_term
-    uuid: cacbd44f-6e4b-4a5b-bfe2-8cd600ed1aed
+    uuid: 0337cf14-e9ec-4f01-95af-4f7bc3407378
 selection_logic: and
 weight: -5
 relationships: {  }

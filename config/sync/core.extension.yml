@@ -77,7 +77,6 @@ module:
   rdf: 0
   redirect: 0
   redirect_login: 0
-  refreshless: 0
   responsive_image: 0
   schema_article: 0
   schema_metatag: 0

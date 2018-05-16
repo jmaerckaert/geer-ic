@@ -5,7 +5,8 @@ dependencies: {  }
 id: config_production
 label: Production
 folder: ../config/prod
-module: {  }
+module:
+  refreshless: 0
 theme: {  }
 blacklist:
   - block.block.bannierelisticgeer2018

@@ -1,0 +1,23 @@
+uuid: c7577ab8-073e-457e-8bb0-4d1f289218d9
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_candidate_siteweb
+    - node.type.candidate
+  module:
+    - link
+id: node.candidate.field_candidate_siteweb
+field_name: field_candidate_siteweb
+entity_type: node
+bundle: candidate
+label: 'Site web'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

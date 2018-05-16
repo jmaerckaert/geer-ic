@@ -6,11 +6,13 @@ dependencies:
     - field.field.node.candidate.body
     - field.field.node.candidate.field_candidat_mandats
     - field.field.node.candidate.field_candidate_email
+    - field.field.node.candidate.field_candidate_formation
     - field.field.node.candidate.field_candidate_job
     - field.field.node.candidate.field_candidate_lastname
     - field.field.node.candidate.field_candidate_name
     - field.field.node.candidate.field_candidate_photo
     - field.field.node.candidate.field_candidate_position
+    - field.field.node.candidate.field_candidate_siteweb
     - field.field.node.candidate.field_candidate_statut
     - field.field.node.candidate.field_candidate_telephone
     - field.field.node.candidate.field_candidate_town
@@ -19,6 +21,7 @@ dependencies:
   module:
     - ds
     - image
+    - link
     - telephone
     - text
     - user
@@ -131,6 +134,14 @@ content:
     third_party_settings: {  }
     type: basic_string
     region: top_right
+  field_candidate_formation:
+    weight: 11
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
   field_candidate_job:
     weight: 3
     label: above
@@ -156,6 +167,18 @@ content:
     third_party_settings: {  }
     type: string
     region: top_right
+  field_candidate_siteweb:
+    weight: 12
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
   field_candidate_statut:
     weight: 2
     label: above

@@ -330,7 +330,19 @@ display:
           entity_type: node
           entity_field: type
           plugin_id: bundle
-      sorts: {  }
+      sorts:
+        field_candidate_position_value:
+          id: field_candidate_position_value
+          table: node__field_candidate_position
+          field: field_candidate_position_value
+          relationship: none
+          group_type: group
+          admin_label: ''
+          order: ASC
+          exposed: false
+          expose:
+            label: ''
+          plugin_id: standard
       title: 'Nos candidats'
       header: {  }
       footer: {  }

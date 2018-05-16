@@ -1,0 +1,19 @@
+uuid: aa1d10e2-4a1f-4527-9bbd-24f5365cbc1c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_candidate_formation
+    - node.type.candidate
+id: node.candidate.field_candidate_formation
+field_name: field_candidate_formation
+entity_type: node
+bundle: candidate
+label: Formation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -12,13 +12,13 @@ show_menus:
   account: '0'
   admin: '0'
   devel: '0'
-  flexslider-example: '0'
   tools: '0'
 show_menus_hidden: false
 show_vocabularies:
+  font_classification: font_classification
+  program_themes: program_themes
   tags: tags
   towns: towns
-  font_classification: '0'
   font_designer: '0'
   font_foundry: '0'
   font_tags: '0'
@@ -33,11 +33,11 @@ show_rss_links: 1
 rss_taxonomy: -1
 css: true
 order:
+  vocabularies_program_themes: -50
   front: -50
   menus_account: -49
   menus_admin: -48
   menus_devel: -47
-  menus_flexslider-example: -46
   menus_main: -45
   vocabularies_tags: -44
   vocabularies_towns: -43
@@ -51,3 +51,4 @@ order:
 _core:
   default_config_hash: yUNkiSB-fp4pyUb6B2L9HiiCdISBDvK7r1v9_XkGUaQ
 langcode: fr
+vocabulary_show_links: true

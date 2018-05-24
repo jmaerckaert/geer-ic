@@ -255,7 +255,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: Articles
+      title: 'Nos articles'
       header: {  }
       footer: {  }
       empty: {  }

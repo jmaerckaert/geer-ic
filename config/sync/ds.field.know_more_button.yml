@@ -3,7 +3,7 @@ label: 'Know more button'
 ui_limit: 'candidate|*'
 properties:
   content:
-    value: "<a class=\"btn btn-primary\" href=\"absolute]\">En savoir plus</a>\r\n"
+    value: "<a class=\"btn btn-primary\" href=\"[node:url]\">En savoir plus</a>\r\n"
     format: full_html
 type: token
 type_label: 'Token field'

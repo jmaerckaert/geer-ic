@@ -10,7 +10,7 @@ tags:
   description: '[node:summary]'
   geo_placename: '[node:field_candidate_town:entity:name]'
   geo_region: BE
-  image_src: '[node:field_candidate_photo:entity:path]'
+  image_src: '[node:field_candidate_photo:entity:url]'
   robots: 'index, follow'
   title: '[node:title]'
   fb_admins: '1064355855'

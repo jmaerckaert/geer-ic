@@ -67,14 +67,19 @@ hidden:
   addtoany: true
   body: true
   field_candidat_mandats: true
+  field_candidate_address: true
+  field_candidate_birthdate: true
   field_candidate_email: true
   field_candidate_formation: true
+  field_candidate_gender: true
   field_candidate_job: true
   field_candidate_lastname: true
   field_candidate_name: true
+  field_candidate_position: true
   field_candidate_siteweb: true
   field_candidate_statut: true
   field_candidate_telephone: true
   field_candidate_town: true
+  field_candidatre_age: true
   langcode: true
   links: true

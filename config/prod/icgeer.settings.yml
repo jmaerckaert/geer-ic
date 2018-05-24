@@ -1,0 +1,19 @@
+favicon:
+  mimetype: image/png
+  path: 'public://logo-icgeer.png'
+  url: 'http://icgeer.be/themes/custom/icgeer/favicon.ico'
+  use_default: false
+schemas:
+  bootstrap: 8000
+  icgeer: 8000
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: 'public://logo-icgeer.png'
+  url: ''
+  use_default: false
+table_responsive: '-1'
+table: ''

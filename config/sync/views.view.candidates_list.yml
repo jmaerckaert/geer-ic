@@ -237,7 +237,7 @@ display:
           expose:
             label: ''
           plugin_id: standard
-      title: 'Liste des candidats ICGeer'
+      title: 'Nos candidats'
       header:
         entity_taxonomy_term:
           id: entity_taxonomy_term
@@ -266,7 +266,8 @@ display:
     display_title: Page
     position: 2
     display_options:
-      display_extenders: {  }
+      display_extenders:
+        metatag_display_extender: {  }
       path: candidats
       menu:
         type: normal

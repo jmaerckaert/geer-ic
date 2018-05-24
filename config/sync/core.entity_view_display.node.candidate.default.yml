@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.candidate.field_candidate_birthdate
     - field.field.node.candidate.field_candidate_email
     - field.field.node.candidate.field_candidate_formation
+    - field.field.node.candidate.field_candidate_gender
     - field.field.node.candidate.field_candidate_job
     - field.field.node.candidate.field_candidate_lastname
     - field.field.node.candidate.field_candidate_name
@@ -27,6 +28,7 @@ dependencies:
     - ds
     - image
     - link
+    - options
     - telephone
     - text
     - user
@@ -162,6 +164,13 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
+  field_candidate_gender:
+    weight: 17
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
     region: content
   field_candidate_job:
     weight: 3

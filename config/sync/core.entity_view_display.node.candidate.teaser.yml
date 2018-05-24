@@ -6,8 +6,11 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.candidate.body
     - field.field.node.candidate.field_candidat_mandats
+    - field.field.node.candidate.field_candidate_address
+    - field.field.node.candidate.field_candidate_birthdate
     - field.field.node.candidate.field_candidate_email
     - field.field.node.candidate.field_candidate_formation
+    - field.field.node.candidate.field_candidate_gender
     - field.field.node.candidate.field_candidate_job
     - field.field.node.candidate.field_candidate_lastname
     - field.field.node.candidate.field_candidate_name
@@ -17,6 +20,7 @@ dependencies:
     - field.field.node.candidate.field_candidate_statut
     - field.field.node.candidate.field_candidate_telephone
     - field.field.node.candidate.field_candidate_town
+    - field.field.node.candidate.field_candidatre_age
     - image.style.max_650x650
     - node.type.candidate
   module:
@@ -62,9 +66,14 @@ third_party_settings:
         - field_candidat_mandats
         - field_candidate_telephone
         - field_candidate_email
-        - links
+        - 'dynamic_token_field:node-know_more_button'
         - addtoany
     fields:
+      'dynamic_token_field:node-know_more_button':
+        plugin_id: 'dynamic_token_field:node-know_more_button'
+        weight: 7
+        label: hidden
+        formatter: default
       node_title:
         plugin_id: node_title
         weight: 1
@@ -135,17 +144,17 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-  links:
-    weight: 7
-    region: right
-    settings: {  }
-    third_party_settings: {  }
 hidden:
   body: true
+  field_candidate_address: true
+  field_candidate_birthdate: true
   field_candidate_formation: true
+  field_candidate_gender: true
   field_candidate_job: true
   field_candidate_lastname: true
   field_candidate_name: true
   field_candidate_siteweb: true
   field_candidate_statut: true
+  field_candidatre_age: true
   langcode: true
+  links: true

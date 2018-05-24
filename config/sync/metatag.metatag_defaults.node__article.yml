@@ -1,0 +1,58 @@
+uuid: c53d98c3-df5d-40f6-90a9-2049a7a96991
+langcode: fr
+status: true
+dependencies: {  }
+id: node__article
+label: 'Content: Article'
+tags:
+  canonical_url: '[node:url]'
+  content_language: fr
+  description: '[node:summary]'
+  geo_placename: Geer
+  image_src: '[node:field_image]'
+  original_source: '[node:field_article_link]'
+  robots: 'index, follow'
+  title: '[node:title] | [site:name]'
+  fb_admins: '1064355855'
+  audience: all
+  department: ICGeeer
+  doc_status: published
+  google_rating: '10'
+  thumbnail: '[node:field_image]'
+  google_plus_author: 'https://plus.google.com/u/0/+JonathanMaerckaert'
+  google_plus_description: '[node:summary]'
+  google_plus_image: '[node:field_image]'
+  google_plus_name: '[node:title]'
+  google_plus_publisher: 'https://plus.google.com/u/0/+JonathanMaerckaert'
+  'hreflang_per_language:hreflang_fr': '[node:url]'
+  hreflang_xdefault: '[node:url:unaliased]'
+  og_description: '[node:body]'
+  og_image: '[node:field_image]'
+  og_image_height: '[node:field_image:height]'
+  og_image_url: '[node:field_image:entity:url]'
+  og_image_width: '[node:field_image:width]'
+  og_see_also: '[node:field_article_link]'
+  og_site_name: '[site:name]'
+  og_title: '[node:title]'
+  og_type: article
+  og_updated_time: '[node:changed]'
+  og_url: '[node:url]'
+  twitter_cards_description: '[node:summary]'
+  twitter_cards_gallery_image0: '[node:field_image]'
+  twitter_cards_image: '[node:field_image]'
+  twitter_cards_image_alt: '[node:field_image:alt]'
+  twitter_cards_image_height: '[node:field_image:height]'
+  twitter_cards_image_width: '[node:field_image:width]'
+  twitter_cards_page_url: '[node:url]'
+  twitter_cards_title: '[node:title]'
+  twitter_cards_type: summary_large_image
+  schema_article_about: '[node:field_tags]'
+  schema_article_date_modified: '[node:changed:html_datetime]'
+  schema_article_date_published: '[node:created:html_datetime]'
+  schema_article_description: '[node:summary]'
+  schema_article_headline: '[node:title]'
+  schema_article_image: 'a:5:{s:5:"@type";s:11:"ImageObject";s:20:"representativeOfPage";s:4:"True";s:3:"url";s:18:"[node:field_image]";s:5:"width";s:24:"[node:field_image:width]";s:6:"height";s:25:"[node:field_image:height]";}'
+  schema_article_is_accessible_for_free: 'True'
+  schema_article_main_entity_of_page: '[current-page:url]'
+  schema_article_name: '[node:title]'
+  schema_article_type: NewsArticle

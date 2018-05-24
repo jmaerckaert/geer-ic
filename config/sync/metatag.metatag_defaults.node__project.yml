@@ -1,0 +1,61 @@
+uuid: 184310ed-4cad-45c3-8c94-886b8a366416
+langcode: fr
+status: true
+dependencies: {  }
+id: node__project
+label: 'Content: Project'
+tags:
+  canonical_url: '[node:url]'
+  content_language: fr
+  description: '[node:summary]'
+  geo_placename: Geer
+  geo_region: BE
+  robots: 'index, follow'
+  title: '[node:title] | [site:name]'
+  fb_admins: '1064355855'
+  audience: all
+  department: ICGeeer
+  doc_status: published
+  google_rating: '10'
+  thumbnail: '[node:field_project_pictures:0]'
+  google_plus_author: 'https://plus.google.com/u/0/+JonathanMaerckaert'
+  google_plus_description: '[node:summary]'
+  google_plus_image: '[node:field_project_pictures:0]'
+  google_plus_name: '[node:title]'
+  google_plus_publisher: 'https://plus.google.com/u/0/+JonathanMaerckaert'
+  'hreflang_per_language:hreflang_fr': '[node:url]'
+  hreflang_xdefault: '[node:url:unaliased]'
+  og_description: '[node:body]'
+  og_image: '[node:field_project_pictures:0]'
+  og_image_height: '[node:field_project_pictures:0:height]'
+  og_image_type: image/jpeg
+  og_image_url: '[node:field_project_pictures:0:url]'
+  og_image_width: '[node:field_project_pictures:0:width]'
+  og_locale: fr_BE
+  og_site_name: '[site:name]'
+  og_title: '[node:title]'
+  og_type: article
+  og_updated_time: '[node:changed]'
+  og_url: '[node:url]'
+  twitter_cards_description: '[node:summary]'
+  twitter_cards_gallery_image0: '[node:field_project_pictures:0]'
+  twitter_cards_gallery_image1: '[node:field_project_pictures:1]'
+  twitter_cards_gallery_image2: '[node:field_project_pictures:2]'
+  twitter_cards_gallery_image3: '[node:field_project_pictures:3]'
+  twitter_cards_image: '[node:field_project_pictures:0]'
+  twitter_cards_image_alt: '[node:field_project_pictures:0:alt]'
+  twitter_cards_image_height: '[node:field_project_pictures:0:height]'
+  twitter_cards_image_width: '[node:field_project_pictures:0:width]'
+  twitter_cards_page_url: '[node:url]'
+  twitter_cards_title: '[node:title]'
+  twitter_cards_type: summary_large_image
+  schema_article_about: ICGeer
+  schema_article_date_modified: '[node:changed:html_datetime]'
+  schema_article_date_published: '[node:created:html_datetime]'
+  schema_article_description: '[node:summary]'
+  schema_article_headline: '[node:title]'
+  schema_article_image: 'a:5:{s:5:"@type";s:11:"ImageObject";s:20:"representativeOfPage";s:4:"True";s:3:"url";s:31:"[node:field_project_pictures:0]";s:5:"width";s:37:"[node:field_project_pictures:0:width]";s:6:"height";s:38:"[node:field_project_pictures:0:height]";}'
+  schema_article_is_accessible_for_free: 'True'
+  schema_article_main_entity_of_page: '[current-page:url]'
+  schema_article_name: '[node:title]'
+  schema_article_type: Article

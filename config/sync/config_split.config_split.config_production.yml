@@ -9,11 +9,12 @@ module:
   refreshless: 0
 theme: {  }
 blacklist:
-  - block.block.bannierelisticgeer2018
+  - core.menu.static_menu_link_overrides
   - google_analytics.settings
   - icgeer.settings
   - system.file
   - system.performance
+  - block.block.bannierelisticgeer2018
 graylist: {  }
 graylist_dependents: true
 graylist_skip_equal: true

@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.field.node.candidate.body
     - field.field.node.candidate.field_candidat_mandats
+    - field.field.node.candidate.field_candidate_address
+    - field.field.node.candidate.field_candidate_birthdate
     - field.field.node.candidate.field_candidate_email
     - field.field.node.candidate.field_candidate_formation
     - field.field.node.candidate.field_candidate_job
@@ -16,9 +18,12 @@ dependencies:
     - field.field.node.candidate.field_candidate_statut
     - field.field.node.candidate.field_candidate_telephone
     - field.field.node.candidate.field_candidate_town
+    - field.field.node.candidate.field_candidatre_age
     - image.style.max_325x325
     - node.type.candidate
   module:
+    - address
+    - datetime
     - ds
     - image
     - link
@@ -127,6 +132,22 @@ content:
     third_party_settings: {  }
     type: string
     region: content
+  field_candidate_address:
+    weight: 14
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  field_candidate_birthdate:
+    weight: 15
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
   field_candidate_email:
     weight: 7
     label: above
@@ -204,6 +225,15 @@ content:
     third_party_settings: {  }
     type: entity_reference_label
     region: top
+  field_candidatre_age:
+    weight: 16
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
 hidden:
   addtoany: true
   field_candidate_lastname: true

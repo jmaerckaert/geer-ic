@@ -1,0 +1,23 @@
+uuid: f20973ae-49ee-4298-9233-550843675356
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_candidatre_age
+    - node.type.candidate
+id: node.candidate.field_candidatre_age
+field_name: field_candidatre_age
+entity_type: node
+bundle: candidate
+label: Age
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

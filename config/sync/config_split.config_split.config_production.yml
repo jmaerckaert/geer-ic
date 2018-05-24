@@ -11,6 +11,7 @@ theme: {  }
 blacklist:
   - block.block.bannierelisticgeer2018
   - google_analytics.settings
+  - icgeer.settings
   - system.file
   - system.performance
 graylist: {  }

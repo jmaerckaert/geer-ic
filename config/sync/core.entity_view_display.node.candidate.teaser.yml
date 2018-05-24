@@ -55,9 +55,9 @@ third_party_settings:
     regions:
       left:
         - field_candidate_photo
-        - field_candidate_position
       right:
         - node_title
+        - field_candidate_position
         - field_candidate_town
         - field_candidat_mandats
         - field_candidate_telephone
@@ -113,7 +113,7 @@ content:
   field_candidate_position:
     type: number_integer
     weight: 2
-    region: left
+    region: right
     label: inline
     settings:
       thousand_separator: ''

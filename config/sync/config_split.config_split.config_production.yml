@@ -16,6 +16,7 @@ blacklist:
   - icgeer.settings
   - system.file
   - system.performance
+  - system.site
   - block.block.bannierelisticgeer2018
 graylist: {  }
 graylist_dependents: true

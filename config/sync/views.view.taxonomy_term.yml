@@ -69,6 +69,11 @@ display:
             previous: ‹‹
             next: ››
       sorts:
+        field_candidate_position_value:
+          id: field_candidate_position_value
+          table: node__field_candidate_position
+          field: field_candidate_position_value
+          plugin_id: standard
         sticky:
           id: sticky
           table: taxonomy_index

@@ -273,7 +273,7 @@ display:
         type: normal
         title: Candidats
         description: 'Liste des candidats ICGeer'
-        expanded: true
+        expanded: false
         parent: ''
         weight: -48
         context: '0'

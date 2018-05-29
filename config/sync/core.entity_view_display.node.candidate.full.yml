@@ -27,13 +27,14 @@ dependencies:
     - address
     - ds
     - responsive_image
+    - taxonomy
     - telephone
     - text
     - user
 third_party_settings:
   ds:
     layout:
-      id: bs_2col_stacked
+      id: bs_3col_stacked
       library: null
       disable_css: false
       entity_classes: all_classes
@@ -54,13 +55,19 @@ third_party_settings:
           left:
             wrapper: div
             classes:
-              col-sm-6: col-sm-6
+              col-sm-4: col-sm-4
+            add_region_classes: 1
+            attributes: ''
+          middle:
+            wrapper: div
+            classes:
+              col-sm-4: col-sm-4
             add_region_classes: 1
             attributes: ''
           right:
             wrapper: div
             classes:
-              col-sm-6: col-sm-6
+              col-sm-4: col-sm-4
             add_region_classes: 1
             attributes: ''
           bottom:
@@ -72,25 +79,26 @@ third_party_settings:
     regions:
       left:
         - field_candidate_photo
-        - body
-      right:
+      middle:
         - field_candidate_position
-        - field_candidatre_age
         - field_candidate_town
         - field_candidate_address
-        - field_candidate_formation
-        - field_candidate_job
-        - field_candidate_statut
-        - field_candidat_mandats
         - field_candidate_telephone
         - field_candidate_email
         - 'dynamic_token_field:node-candidate_form'
+      right:
+        - field_candidate_formation
+        - field_candidate_job
+        - field_candidatre_age
+        - field_candidate_statut
+        - field_candidat_mandats
       bottom:
+        - body
         - addtoany
     fields:
       'dynamic_token_field:node-candidate_form':
         plugin_id: 'dynamic_token_field:node-candidate_form'
-        weight: 12
+        weight: 6
         label: hidden
         formatter: default
 id: node.candidate.full
@@ -106,13 +114,13 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 1
+    weight: 12
     settings: {  }
     third_party_settings: {  }
-    region: left
+    region: bottom
   field_candidat_mandats:
     type: string
-    weight: 9
+    weight: 11
     region: right
     label: above
     settings:
@@ -120,21 +128,21 @@ content:
     third_party_settings: {  }
   field_candidate_address:
     type: address_default
-    weight: 5
-    region: right
+    weight: 3
+    region: middle
     label: above
     settings: {  }
     third_party_settings: {  }
   field_candidate_email:
-    weight: 11
+    weight: 5
     label: inline
     settings: {  }
     third_party_settings: {  }
-    type: email_mailto
-    region: right
+    type: basic_string
+    region: middle
   field_candidate_formation:
     type: string
-    weight: 6
+    weight: 7
     region: right
     label: above
     settings:
@@ -142,7 +150,7 @@ content:
     third_party_settings: {  }
   field_candidate_job:
     type: string
-    weight: 7
+    weight: 8
     region: right
     label: above
     settings:
@@ -159,8 +167,8 @@ content:
     third_party_settings: {  }
   field_candidate_position:
     type: number_integer
-    weight: 2
-    region: right
+    weight: 1
+    region: middle
     label: inline
     settings:
       thousand_separator: ''
@@ -168,14 +176,14 @@ content:
     third_party_settings: {  }
   field_candidate_statut:
     type: string
-    weight: 8
+    weight: 10
     region: right
     label: inline
     settings:
       link_to_entity: false
     third_party_settings: {  }
   field_candidate_telephone:
-    weight: 10
+    weight: 4
     label: inline
     settings:
       title: ''
@@ -183,18 +191,17 @@ content:
       ds:
         ds_limit: ''
     type: telephone_link
-    region: right
+    region: middle
   field_candidate_town:
-    type: entity_reference_label
-    weight: 4
-    region: right
+    type: entity_reference_rss_category
+    weight: 2
+    region: middle
     label: inline
-    settings:
-      link: true
+    settings: {  }
     third_party_settings: {  }
   field_candidatre_age:
     type: number_integer
-    weight: 3
+    weight: 9
     region: right
     label: inline
     settings:

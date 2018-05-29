@@ -11,7 +11,7 @@ id: node.article.field_article_link
 field_name: field_article_link
 entity_type: node
 bundle: article
-label: 'Lien vers article externe'
+label: 'Article original'
 description: ''
 required: false
 translatable: false

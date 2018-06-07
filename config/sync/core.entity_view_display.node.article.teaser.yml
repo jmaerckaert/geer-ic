@@ -10,10 +10,11 @@ dependencies:
     - field.field.node.article.field_article_teaser
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
-    - image.style.medium
+    - image.style.max_650x650
     - node.type.article
   module:
     - ds
+    - field_formatter_class
     - image
     - text
     - user
@@ -35,13 +36,13 @@ third_party_settings:
           left:
             wrapper: div
             classes:
-              col-sm-3: col-sm-3
+              col-sm-4: col-sm-4
             add_region_classes: 1
             attributes: ''
           right:
             wrapper: div
             classes:
-              col-sm-9: col-sm-9
+              col-sm-8: col-sm-8
             add_region_classes: 1
             attributes: ''
     regions:
@@ -103,9 +104,11 @@ content:
     weight: 1
     region: left
     settings:
-      image_style: medium
+      image_style: max_650x650
       image_link: content
-    third_party_settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: ''
     label: hidden
 hidden:
   body: true

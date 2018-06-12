@@ -9,11 +9,11 @@ label: 'Front page'
 tags:
   canonical_url: '[site:url]'
   shortlink: '[site:url]'
-  description: "Les « IC Geer», véritable liste d'ouverture bien avant que cela ne devienne à la mode, est composée de représentants de 3 familles politiques traditionnelles : CDH, Ecolo, MR et de membres non apparentés politiquement. Pour rappel, les « IC Geer» composent, et ce, depuis 1976, le Collège actuel, organe de gestion et de décision de la commune. Les IC Geer représentent donc la majorité en place : 10 conseillers communaux sur 13 !\r\n\r\nLa liste présentée est une liste d'expérience qui intègre, néanmoins, 7 nouvelles candidatures."
+  description: 'Les « IC Geer», véritable liste d''ouverture, est composée de représentants de 3 familles politiques et de membres non apparentés politiquement. Les « IC Geer» composent, le Collège actuel, organe de gestion et de décision de la commune. Les IC Geer représentent donc la majorité en place.'
   content_language: fr-BE
   icbm: '50.669568, 5.174025'
   keywords: 'Geer, IC GEER, élections 2018'
-  title: 'Bienvenu sue le site de la liste IC Geer | Restons concret!'
+  title: 'Liste IC Geer | Élections 2018 | Restons concret!'
   geo_region: BE
   geo_position: '50.669568, 5.174025'
   abstract: 'Les « IC Geer», véritable liste d''ouverture bien avant que cela ne devienne à la mode, est composée de représentants de 3 familles politiques traditionnelles : CDH, Ecolo, MR et de membres non apparentés politiquement.'
@@ -27,10 +27,20 @@ tags:
   google_plus_publisher: 'https://plus.google.com/u/0/+JonathanMaerckaert'
   google_plus_image: 'https://www.icgeer.be/sites/default/files/styles/wide_banner/public/2018-05/candidats-liste-icgeer-elections-2018-geer_1.png'
   google_plus_name: 'Le site de la liste IC Geer'
+  og_url: 'https://www.icgeer.be'
+  og_site_name: 'IC Geer'
+  og_see_also: 'https://www.facebook.com/IC-GEER-570940673285399/'
+  og_description: 'Les « IC Geer», véritable liste d''ouverture, est composée de représentants de 3 familles politiques et de membres non apparentés politiquement. Les « IC Geer» composent, le Collège actuel, organe de gestion et de décision de la commune. '
+  og_title: 'IC Geer | Élections 2018 | Restons concret!'
+  og_latitude: '50.668915'
+  og_type: website
+  og_longitude: '5.172823'
+  og_image_url: 'https://www.icgeer.be/sites/default/files/styles/wide_banner/public/2018-05/candidats-liste-icgeer-elections-2018-geer_1.png'
+  og_image: 'https://www.icgeer.be/sites/default/files/styles/wide_banner/public/2018-05/candidats-liste-icgeer-elections-2018-geer_1.png'
   twitter_cards_title: 'Le site de la liste IC Geer'
   twitter_cards_image_alt: 'Photo des candidats de la liste IC Geer'
   twitter_cards_page_url: 'http://www.icgeer.be/'
-  twitter_cards_description: 'Les « IC Geer», véritable liste d''ouverture bien avant que cela ne devienne à la mode'
+  twitter_cards_description: 'Les « IC Geer», véritable liste d&apos;ouverture bien avant que cela ne devienne à la mode'
   twitter_cards_image: 'https://www.icgeer.be/sites/default/files/styles/wide_banner/public/2018-05/candidats-liste-icgeer-elections-2018-geer_1.png'
   twitter_cards_creator_id: '522378284'
   twitter_cards_type: summary_large_image

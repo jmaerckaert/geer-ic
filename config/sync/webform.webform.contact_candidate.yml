@@ -8,6 +8,7 @@ open: null
 close: null
 uid: 1
 template: false
+archive: false
 id: contact_candidate
 title: 'Contacter le candidat'
 description: ''

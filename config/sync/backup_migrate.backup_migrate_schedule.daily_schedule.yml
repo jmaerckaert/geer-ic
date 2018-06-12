@@ -10,6 +10,6 @@ enabled: true
 keep: 5
 period: 86400
 cron: null
-source_id: default_db
+source_id: entire_site
 destination_id: private_files
-settings_profile_id: null
+settings_profile_id: my_backup_profile

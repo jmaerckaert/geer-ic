@@ -9,7 +9,7 @@ _core:
 id: icgeer_local_tasks
 theme: icgeer
 region: content
-weight: -5
+weight: -6
 provider: null
 plugin: local_tasks_block
 settings:

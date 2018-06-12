@@ -1,23 +1,23 @@
-uuid: 958bb5ec-273d-4dfd-92f6-af039854188e
+uuid: ba907921-0c9c-495d-9c0b-220d1b5f83c3
 langcode: fr
 status: true
 dependencies:
   content:
-    - 'block_content:bloc_banner:45f8283e-dbd4-43f1-b41b-ada341345437'
+    - 'block_content:basic:fad6713e-35d2-4b95-bb00-1033ad34e832'
   module:
     - block_content
     - system
   theme:
     - icgeer
-id: bannierelisticgeer2018
+id: unelistedouverture
 theme: icgeer
 region: content
-weight: -3
+weight: -2
 provider: null
-plugin: 'block_content:45f8283e-dbd4-43f1-b41b-ada341345437'
+plugin: 'block_content:fad6713e-35d2-4b95-bb00-1033ad34e832'
 settings:
-  id: 'block_content:45f8283e-dbd4-43f1-b41b-ada341345437'
-  label: 'Bannière list ICGeer 2018'
+  id: 'block_content:fad6713e-35d2-4b95-bb00-1033ad34e832'
+  label: 'Une liste d''ouverture'
   provider: block_content
   label_display: '0'
   status: true

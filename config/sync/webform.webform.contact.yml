@@ -1,12 +1,9 @@
-uuid: 034b5bda-8bcc-4ab0-99c9-fd9c4f32bcb8
 langcode: fr
 status: open
 dependencies:
   enforced:
     module:
       - webform
-_core:
-  default_config_hash: 54q-eZLQ0xY3g9yFexLIn97Y8F_sByRhO4ima2pMmn4
 open: null
 close: null
 uid: null
@@ -52,6 +49,7 @@ settings:
   submission_label: ''
   submission_log: false
   submission_user_columns: {  }
+  submission_user_duplicate: false
   submission_login: false
   submission_login_message: ''
   submission_exception_message: ''
@@ -216,3 +214,6 @@ handlers:
       return_path: ''
       sender_mail: ''
       sender_name: ''
+uuid: 034b5bda-8bcc-4ab0-99c9-fd9c4f32bcb8
+_core:
+  default_config_hash: 54q-eZLQ0xY3g9yFexLIn97Y8F_sByRhO4ima2pMmn4

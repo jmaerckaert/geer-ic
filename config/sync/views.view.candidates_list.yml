@@ -272,7 +272,7 @@ display:
       menu:
         type: normal
         title: Candidats
-        description: 'Liste des candidats ICGeer'
+        description: 'La liste des candidats IC Geer'
         expanded: false
         parent: ''
         weight: -48

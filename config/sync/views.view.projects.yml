@@ -188,6 +188,10 @@ display:
         title: Projets
         menu_name: main
         weight: -47
+        description: 'Les projets réalisés par la liste IC Geer'
+        parent: ''
+        expanded: false
+        enabled: true
     cache_metadata:
       max-age: -1
       contexts:

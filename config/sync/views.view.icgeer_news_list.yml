@@ -285,7 +285,7 @@ display:
       menu:
         type: normal
         title: Articles
-        description: 'Liste d''articles'
+        description: 'Retrouvez les articles concernant la liste IC Geer'
         expanded: false
         parent: ''
         weight: -49

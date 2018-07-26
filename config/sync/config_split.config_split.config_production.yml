@@ -10,7 +10,6 @@ module:
 theme: {  }
 blacklist:
   - google_analytics.settings
-  - icgeer.settings
   - system.file
   - system.performance
   - system.site

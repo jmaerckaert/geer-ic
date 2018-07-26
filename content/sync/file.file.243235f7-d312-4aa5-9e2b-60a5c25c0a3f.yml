@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: 243235f7-d312-4aa5-9e2b-60a5c25c0a3f
+langcode:
+  -
+    value: fr
+uid:
+  -
+    target_type: user
+    target_uuid: 0d086afd-1f55-430a-b376-72659966f44f
+filename:
+  -
+    value: gen14C0.tmp.gif
+uri:
+  -
+    value: 'public://2018-04/gen14C0.tmp.gif'
+    url: /sites/default/files/2018-04/gen14C0.tmp.gif
+filemime:
+  -
+    value: image/gif
+filesize:
+  -
+    value: 2132
+status:
+  -
+    value: true
+created:
+  -
+    value: '2018-04-14T09:00:40+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2018-04-14T09:00:40+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.0d086afd-1f55-430a-b376-72659966f44f

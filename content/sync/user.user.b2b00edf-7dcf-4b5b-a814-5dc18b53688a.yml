@@ -1,0 +1,62 @@
+uuid:
+  -
+    value: b2b00edf-7dcf-4b5b-a814-5dc18b53688a
+langcode:
+  -
+    value: fr
+preferred_langcode:
+  -
+    value: fr
+preferred_admin_langcode:
+  -
+    value: fr
+name:
+  -
+    value: Jonathan
+mail:
+  value: jonathan.maeckaert@icgeer.be
+timezone:
+  -
+    value: Europe/Brussels
+status:
+  value: '1'
+created:
+  -
+    value: '2018-04-13T08:53:34+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2018-04-13T08:55:02+00:00'
+    format: 'Y-m-d\TH:i:sP'
+access:
+  -
+    value: '1970-01-01T00:00:00+00:00'
+    format: 'Y-m-d\TH:i:sP'
+login:
+  -
+    value: '1970-01-01T00:00:00+00:00'
+    format: 'Y-m-d\TH:i:sP'
+init:
+  -
+    value: jonathan.maeckaert@icgeer.be
+roles:
+  - authenticated
+  - editor
+default_langcode:
+  -
+    value: true
+metatag:
+  value:
+    title: 'Jonathan | ICGeer'
+    canonical_url: 'http://geer-ic.loc/utilisateurs/jonathan'
+    description: ICGeer
+path:
+  -
+    alias: /utilisateurs/jonathan
+user_picture: {  }
+_content_sync:
+  entity_type: user
+  entity_dependencies: {  }
+pass:
+  value: $S$Ep32tAcxiTtt3tjJHPDxYkJ6r5mxvxazZVbRxG.ZNZNtmZqiviBu
+  pre_hashed: true

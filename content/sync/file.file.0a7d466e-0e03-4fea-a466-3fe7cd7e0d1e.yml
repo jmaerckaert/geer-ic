@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: 0a7d466e-0e03-4fea-a466-3fe7cd7e0d1e
+langcode:
+  -
+    value: fr
+uid:
+  -
+    target_type: user
+    target_uuid: 0d086afd-1f55-430a-b376-72659966f44f
+filename:
+  -
+    value: gen1461.tmp.jpeg
+uri:
+  -
+    value: 'public://2018-04/gen1461.tmp.jpeg'
+    url: /sites/default/files/2018-04/gen1461.tmp.jpeg
+filemime:
+  -
+    value: image/jpeg
+filesize:
+  -
+    value: 7546
+status:
+  -
+    value: true
+created:
+  -
+    value: '2018-04-14T09:00:40+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2018-04-14T09:00:40+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.0d086afd-1f55-430a-b376-72659966f44f

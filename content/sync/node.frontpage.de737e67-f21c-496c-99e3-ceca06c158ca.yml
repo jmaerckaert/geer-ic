@@ -1,0 +1,66 @@
+uuid:
+  -
+    value: de737e67-f21c-496c-99e3-ceca06c158ca
+langcode:
+  -
+    value: fr
+type:
+  -
+    target_id: frontpage
+    target_type: node_type
+    target_uuid: 9a180065-9c38-44c4-976f-38e83612ead7
+revision_timestamp:
+  -
+    value: '2018-04-13T12:25:55+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: 0d086afd-1f55-430a-b376-72659966f44f
+revision_log: {  }
+status:
+  -
+    value: true
+title:
+  -
+    value: Front
+uid:
+  -
+    target_type: user
+    target_uuid: 0d086afd-1f55-430a-b376-72659966f44f
+created:
+  -
+    value: '2018-04-13T12:25:43+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2018-04-13T12:28:03+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+moderation_state: {  }
+ds_switch: {  }
+metatag:
+  value:
+    title: 'Front | ICGeer'
+    canonical_url: 'http://geer-ic.loc/front'
+path:
+  -
+    alias: /front
+menu_link: {  }
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.0d086afd-1f55-430a-b376-72659966f44f
+      - user.user.0d086afd-1f55-430a-b376-72659966f44f

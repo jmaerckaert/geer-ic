@@ -1,0 +1,56 @@
+uuid:
+  -
+    value: 2bdd7711-631f-49ca-9f2f-6d6c974a11e9
+langcode:
+  -
+    value: fr
+type:
+  -
+    target_id: bloc_banner
+    target_type: block_content_type
+    target_uuid: 53e466a2-331c-4023-83f6-c2d89860add7
+revision_created:
+  -
+    value: '2018-04-13T11:21:26+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_user:
+  -
+    target_type: user
+    target_uuid: 0d086afd-1f55-430a-b376-72659966f44f
+revision_log: {  }
+status:
+  -
+    value: true
+info:
+  -
+    value: 'Bannière list ICGeer 2018'
+changed:
+  -
+    value: '2018-04-13T11:21:26+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+moderation_state: {  }
+metatag:
+  value:
+    title: '| ICGeer'
+    canonical_url: 'http://geer-ic.loc/batch'
+field_bloc_banner_banner:
+  -
+    alt: 'Liste ICGeer élections communales Geer 2018'
+    title: 'Liste ICGeer élections communales Geer 2018'
+    width: 2048
+    height: 1536
+    target_type: file
+    target_uuid: 1e18c42b-a69b-4989-afe3-a7c7bdf1336f
+_content_sync:
+  entity_type: block_content
+  entity_dependencies:
+    user:
+      - user.user.0d086afd-1f55-430a-b376-72659966f44f
+    file:
+      - file.file.1e18c42b-a69b-4989-afe3-a7c7bdf1336f

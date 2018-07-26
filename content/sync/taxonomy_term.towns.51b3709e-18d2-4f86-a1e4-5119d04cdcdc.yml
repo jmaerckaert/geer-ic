@@ -1,0 +1,42 @@
+uuid:
+  -
+    value: 51b3709e-18d2-4f86-a1e4-5119d04cdcdc
+langcode:
+  -
+    value: fr
+vid:
+  -
+    target_id: towns
+    target_type: taxonomy_vocabulary
+    target_uuid: b6543eb1-406a-407f-abfa-fb46425d1c58
+name:
+  -
+    value: Geer
+description:
+  -
+    value: null
+    format: null
+    processed: ''
+weight:
+  -
+    value: 0
+parent: {  }
+changed:
+  -
+    value: '2018-04-13T16:00:08+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+metatag:
+  value:
+    title: 'Geer | ICGeer'
+    canonical_url: 'http://geer-ic.loc/taxonomy/term/30'
+path:
+  -
+    alias: null
+    pid: null
+    langcode: fr
+_content_sync:
+  entity_type: taxonomy_term
+  entity_dependencies: {  }

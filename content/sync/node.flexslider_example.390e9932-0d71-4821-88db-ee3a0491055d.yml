@@ -1,0 +1,79 @@
+uuid:
+  -
+    value: 390e9932-0d71-4821-88db-ee3a0491055d
+langcode:
+  -
+    value: fr
+type:
+  -
+    target_id: flexslider_example
+    target_type: node_type
+    target_uuid: fc53caaf-bcef-449d-8acc-22fa6b83eb42
+revision_timestamp:
+  -
+    value: '2018-04-14T08:50:40+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: 0d086afd-1f55-430a-b376-72659966f44f
+revision_log: {  }
+status:
+  -
+    value: true
+title:
+  -
+    value: 'Flexslider sample 3'
+uid:
+  -
+    target_type: user
+    target_uuid: 0d086afd-1f55-430a-b376-72659966f44f
+created:
+  -
+    value: '2018-04-14T08:50:40+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2018-04-14T08:50:40+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+moderation_state: {  }
+ds_switch: {  }
+metatag:
+  value:
+    title: 'Flexslider sample 3 | ICGeer'
+    canonical_url: 'http://geer-ic.loc/node/31'
+path:
+  -
+    alias: null
+    pid: null
+    langcode: fr
+menu_link: {  }
+field_flexslider_example_image:
+  -
+    alt: null
+    title: null
+    width: 1920
+    height: 1272
+    target_type: file
+    target_uuid: 35f123f9-f99d-4c1a-8098-de4bc339031e
+field_flexslider_example_slidesh: {  }
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.0d086afd-1f55-430a-b376-72659966f44f
+      - user.user.0d086afd-1f55-430a-b376-72659966f44f
+    file:
+      - file.file.35f123f9-f99d-4c1a-8098-de4bc339031e

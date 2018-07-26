@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: 27abefe9-7b93-4e03-8a5d-b6678fbedfa8
+langcode:
+  -
+    value: fr
+uid:
+  -
+    target_type: user
+    target_uuid: 0d086afd-1f55-430a-b376-72659966f44f
+filename:
+  -
+    value: gen2CCE.tmp.png
+uri:
+  -
+    value: 'public://2018-04/gen2CCE.tmp.png'
+    url: /sites/default/files/2018-04/gen2CCE.tmp.png
+filemime:
+  -
+    value: image/png
+filesize:
+  -
+    value: 2569
+status:
+  -
+    value: true
+created:
+  -
+    value: '2018-04-13T13:25:31+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2018-04-13T13:25:31+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.0d086afd-1f55-430a-b376-72659966f44f

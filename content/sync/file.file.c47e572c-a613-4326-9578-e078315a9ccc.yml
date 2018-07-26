@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: c47e572c-a613-4326-9578-e078315a9ccc
+langcode:
+  -
+    value: fr
+uid:
+  -
+    target_type: user
+    target_uuid: 0d086afd-1f55-430a-b376-72659966f44f
+filename:
+  -
+    value: copyright.png
+uri:
+  -
+    value: 'public://watermark/copyright_0.png'
+    url: /sites/default/files/watermark/copyright_0.png
+filemime:
+  -
+    value: image/png
+filesize:
+  -
+    value: 713
+status:
+  -
+    value: true
+created:
+  -
+    value: '2018-04-13T09:25:36+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2018-04-13T09:25:37+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.0d086afd-1f55-430a-b376-72659966f44f

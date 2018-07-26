@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: 6b504e63-46bc-44ce-bca9-879f395169a9
+langcode:
+  -
+    value: fr
+uid:
+  -
+    target_type: user
+    target_uuid: 0d086afd-1f55-430a-b376-72659966f44f
+filename:
+  -
+    value: gen17D4.tmp.png
+uri:
+  -
+    value: 'public://2018-04/gen17D4.tmp.png'
+    url: /sites/default/files/2018-04/gen17D4.tmp.png
+filemime:
+  -
+    value: image/png
+filesize:
+  -
+    value: 3984
+status:
+  -
+    value: true
+created:
+  -
+    value: '2018-04-14T09:00:40+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2018-04-14T09:00:40+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.0d086afd-1f55-430a-b376-72659966f44f

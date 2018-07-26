@@ -1,0 +1,42 @@
+uuid:
+  -
+    value: be91ddcf-172b-4a50-82e6-0c88fef9747d
+langcode:
+  -
+    value: fr
+vid:
+  -
+    target_id: towns
+    target_type: taxonomy_vocabulary
+    target_uuid: b6543eb1-406a-407f-abfa-fb46425d1c58
+name:
+  -
+    value: Boëlhe
+description:
+  -
+    value: null
+    format: null
+    processed: ''
+weight:
+  -
+    value: 0
+parent: {  }
+changed:
+  -
+    value: '2018-04-13T16:00:58+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+metatag:
+  value:
+    title: 'Boëlhe | ICGeer'
+    canonical_url: 'http://geer-ic.loc/taxonomy/term/32'
+path:
+  -
+    alias: null
+    pid: null
+    langcode: fr
+_content_sync:
+  entity_type: taxonomy_term
+  entity_dependencies: {  }

@@ -1,0 +1,42 @@
+uuid:
+  -
+    value: bb872766-b07a-48bc-ac3a-21ce0ba33fba
+langcode:
+  -
+    value: fr
+vid:
+  -
+    target_id: font_classification
+    target_type: taxonomy_vocabulary
+    target_uuid: 02b8ff6a-4810-4815-9726-5a24f51d1852
+name:
+  -
+    value: serif
+description:
+  -
+    value: null
+    format: null
+    processed: ''
+weight:
+  -
+    value: 0
+parent: {  }
+changed:
+  -
+    value: '2018-04-13T15:02:54+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+metatag:
+  value:
+    title: 'serif | ICGeer'
+    canonical_url: 'http://geer-ic.loc/taxonomy/term/5'
+path:
+  -
+    alias: null
+    pid: null
+    langcode: fr
+_content_sync:
+  entity_type: taxonomy_term
+  entity_dependencies: {  }

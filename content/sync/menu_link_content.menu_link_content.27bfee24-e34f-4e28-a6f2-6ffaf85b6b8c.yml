@@ -1,0 +1,50 @@
+uuid:
+  -
+    value: 27bfee24-e34f-4e28-a6f2-6ffaf85b6b8c
+langcode:
+  -
+    value: fr
+bundle:
+  -
+    value: menu_link_content
+title:
+  -
+    value: Contact
+description: {  }
+menu_name:
+  -
+    value: main
+link:
+  -
+    uri: 'internal:/contact'
+    title: ''
+    options: {  }
+external:
+  -
+    value: false
+rediscover:
+  -
+    value: true
+weight:
+  -
+    value: 0
+expanded:
+  -
+    value: false
+enabled:
+  -
+    value: true
+parent: {  }
+changed:
+  -
+    value: '2018-04-13T17:39:42+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+metatag:
+  value:
+    title: '| ICGeer'
+    canonical_url: 'http://geer-ic.loc/batch'
+_content_sync:
+  entity_type: menu_link_content

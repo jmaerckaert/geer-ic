@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: a9f49e95-2882-4e30-a4fc-6c5e0c450ff2
+langcode:
+  -
+    value: fr
+uid:
+  -
+    target_type: user
+    target_uuid: 0d086afd-1f55-430a-b376-72659966f44f
+filename:
+  -
+    value: gen3100.tmp.png
+uri:
+  -
+    value: 'public://2018-04/gen3100.tmp.png'
+    url: /sites/default/files/2018-04/gen3100.tmp.png
+filemime:
+  -
+    value: image/png
+filesize:
+  -
+    value: 827
+status:
+  -
+    value: true
+created:
+  -
+    value: '2018-04-13T13:25:31+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2018-04-13T13:25:31+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.0d086afd-1f55-430a-b376-72659966f44f

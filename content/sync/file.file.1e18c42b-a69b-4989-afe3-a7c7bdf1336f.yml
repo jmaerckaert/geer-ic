@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: 1e18c42b-a69b-4989-afe3-a7c7bdf1336f
+langcode:
+  -
+    value: fr
+uid:
+  -
+    target_type: user
+    target_uuid: 0d086afd-1f55-430a-b376-72659966f44f
+filename:
+  -
+    value: liste-des-candidates-icgeer-elections-communales-2018.jpg
+uri:
+  -
+    value: 'public://2018-04/liste-des-candidates-icgeer-elections-communales-2018.jpg'
+    url: /sites/default/files/2018-04/liste-des-candidates-icgeer-elections-communales-2018.jpg
+filemime:
+  -
+    value: image/jpeg
+filesize:
+  -
+    value: 655068
+status:
+  -
+    value: true
+created:
+  -
+    value: '2018-04-13T11:20:53+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2018-04-13T11:21:26+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.0d086afd-1f55-430a-b376-72659966f44f

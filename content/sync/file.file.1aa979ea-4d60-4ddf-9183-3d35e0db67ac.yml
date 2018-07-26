@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: 1aa979ea-4d60-4ddf-9183-3d35e0db67ac
+langcode:
+  -
+    value: fr
+uid:
+  -
+    target_type: user
+    target_uuid: 0d086afd-1f55-430a-b376-72659966f44f
+filename:
+  -
+    value: gen317E.tmp.gif
+uri:
+  -
+    value: 'public://2018-04/gen317E.tmp.gif'
+    url: /sites/default/files/2018-04/gen317E.tmp.gif
+filemime:
+  -
+    value: image/gif
+filesize:
+  -
+    value: 3853
+status:
+  -
+    value: true
+created:
+  -
+    value: '2018-04-13T13:25:31+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2018-04-13T13:25:31+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.0d086afd-1f55-430a-b376-72659966f44f

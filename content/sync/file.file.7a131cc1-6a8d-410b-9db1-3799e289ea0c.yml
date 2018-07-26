@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: 7a131cc1-6a8d-410b-9db1-3799e289ea0c
+langcode:
+  -
+    value: fr
+uid:
+  -
+    target_type: user
+    target_uuid: 0d086afd-1f55-430a-b376-72659966f44f
+filename:
+  -
+    value: gen13F3.tmp.jpeg
+uri:
+  -
+    value: 'public://2018-04/gen13F3.tmp.jpeg'
+    url: /sites/default/files/2018-04/gen13F3.tmp.jpeg
+filemime:
+  -
+    value: image/jpeg
+filesize:
+  -
+    value: 3802
+status:
+  -
+    value: true
+created:
+  -
+    value: '2018-04-14T09:00:40+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2018-04-14T09:00:40+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.0d086afd-1f55-430a-b376-72659966f44f

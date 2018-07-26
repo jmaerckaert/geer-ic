@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: 93a58510-0970-42b0-b892-fc3156113654
+langcode:
+  -
+    value: fr
+uid:
+  -
+    target_type: user
+    target_uuid: 0d086afd-1f55-430a-b376-72659966f44f
+filename:
+  -
+    value: gen16B8.tmp.jpg
+uri:
+  -
+    value: 'public://2018-04/gen16B8.tmp.jpg'
+    url: /sites/default/files/2018-04/gen16B8.tmp.jpg
+filemime:
+  -
+    value: image/jpeg
+filesize:
+  -
+    value: 6073
+status:
+  -
+    value: true
+created:
+  -
+    value: '2018-04-14T09:00:40+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2018-04-14T09:00:40+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.0d086afd-1f55-430a-b376-72659966f44f

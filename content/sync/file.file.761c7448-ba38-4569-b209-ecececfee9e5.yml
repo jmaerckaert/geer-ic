@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: 761c7448-ba38-4569-b209-ecececfee9e5
+langcode:
+  -
+    value: fr
+uid:
+  -
+    target_type: user
+    target_uuid: 0d086afd-1f55-430a-b376-72659966f44f
+filename:
+  -
+    value: gen18F1.tmp.jpeg
+uri:
+  -
+    value: 'public://2018-04/gen18F1.tmp.jpeg'
+    url: /sites/default/files/2018-04/gen18F1.tmp.jpeg
+filemime:
+  -
+    value: image/jpeg
+filesize:
+  -
+    value: 4959
+status:
+  -
+    value: true
+created:
+  -
+    value: '2018-04-14T09:00:40+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2018-04-14T09:00:40+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.0d086afd-1f55-430a-b376-72659966f44f

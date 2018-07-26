@@ -15,9 +15,6 @@ module:
   webprofiler: 0
 theme: {  }
 blacklist:
-  - block.block.views_block__candidats_pictures_slider_block_candidates_slider
-  - block.block.views_block__our_projects_block_our_projects
-  - core.menu.static_menu_link_overrides
   - google_analytics.settings
   - icgeer.settings
   - system.file

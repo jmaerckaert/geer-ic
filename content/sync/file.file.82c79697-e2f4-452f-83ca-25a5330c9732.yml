@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: 82c79697-e2f4-452f-83ca-25a5330c9732
+langcode:
+  -
+    value: fr
+uid:
+  -
+    target_type: user
+    target_uuid: 0d086afd-1f55-430a-b376-72659966f44f
+filename:
+  -
+    value: gen2F35.tmp.gif
+uri:
+  -
+    value: 'public://2018-04/gen2F35.tmp.gif'
+    url: /sites/default/files/2018-04/gen2F35.tmp.gif
+filemime:
+  -
+    value: image/gif
+filesize:
+  -
+    value: 3864
+status:
+  -
+    value: true
+created:
+  -
+    value: '2018-04-13T13:25:31+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2018-04-13T13:25:31+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.0d086afd-1f55-430a-b376-72659966f44f

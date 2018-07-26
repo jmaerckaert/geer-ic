@@ -1,0 +1,42 @@
+uuid:
+  -
+    value: ad21d91b-123d-4d76-8e5d-336392613b2e
+langcode:
+  -
+    value: fr
+vid:
+  -
+    target_id: towns
+    target_type: taxonomy_vocabulary
+    target_uuid: b6543eb1-406a-407f-abfa-fb46425d1c58
+name:
+  -
+    value: Hollogne-sur-Geer
+description:
+  -
+    value: null
+    format: null
+    processed: ''
+weight:
+  -
+    value: 0
+parent: {  }
+changed:
+  -
+    value: '2018-04-13T16:01:39+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+metatag:
+  value:
+    title: 'Hollogne-sur-Geer | ICGeer'
+    canonical_url: 'http://geer-ic.loc/taxonomy/term/35'
+path:
+  -
+    alias: null
+    pid: null
+    langcode: fr
+_content_sync:
+  entity_type: taxonomy_term
+  entity_dependencies: {  }

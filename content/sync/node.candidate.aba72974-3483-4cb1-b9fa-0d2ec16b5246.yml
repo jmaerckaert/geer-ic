@@ -1,0 +1,102 @@
+uuid:
+  -
+    value: aba72974-3483-4cb1-b9fa-0d2ec16b5246
+langcode:
+  -
+    value: fr
+type:
+  -
+    target_id: candidate
+    target_type: node_type
+    target_uuid: feb9e935-e910-469f-be51-28e52378b937
+revision_timestamp:
+  -
+    value: '2018-04-13T16:08:53+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: 0d086afd-1f55-430a-b376-72659966f44f
+revision_log: {  }
+status:
+  -
+    value: true
+title:
+  -
+    value: 'Jonathan Maerckaert'
+uid:
+  -
+    target_type: user
+    target_uuid: 0d086afd-1f55-430a-b376-72659966f44f
+created:
+  -
+    value: '2018-04-11T18:20:34+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2018-04-13T16:08:53+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+moderation_state: {  }
+ds_switch: {  }
+metatag:
+  value:
+    title: 'Jonathan Maerckaert | ICGeer'
+    canonical_url: 'http://geer-ic.loc/candidat/jonathan-maerckaert'
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget dui vel ipsum mollis malesuada eu vel erat. Suspendisse eget facilisis neque. Quisque vulputate sit amet arcu in accumsan. Quisque tincidunt neque a hendrerit consectetur. Nullam semper mi vitae augue rutrum, sed suscipit metus semper. Vivamus ullamcorper augue eu odio rutrum accumsan. Proin bibendum, dolor nec tristique suscipit, magna ligula dapibus risus, id tincidunt erat purus eu eros. Etiam feugiat leo nec tellus gravida, porttitor fringilla massa imperdiet.'
+path:
+  -
+    alias: /candidat/jonathan-maerckaert
+menu_link: {  }
+body:
+  -
+    value: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget dui vel ipsum mollis malesuada eu vel erat. Suspendisse eget facilisis neque. Quisque vulputate sit amet arcu in accumsan. Quisque tincidunt neque a hendrerit consectetur. Nullam semper mi vitae augue rutrum, sed suscipit metus semper. Vivamus ullamcorper augue eu odio rutrum accumsan. Proin bibendum, dolor nec tristique suscipit, magna ligula dapibus risus, id tincidunt erat purus eu eros. Etiam feugiat leo nec tellus gravida, porttitor fringilla massa imperdiet. Aenean quis urna vitae risus tincidunt maximus id eget eros. Nunc vitae mi ornare, consequat ligula a, semper metus. Nulla eget urna orci. Integer feugiat enim in accumsan elementum. In accumsan ante sit amet lacus tincidunt, a molestie lacus consequat. Proin rutrum commodo arcu eu imperdiet. Mauris felis lorem, consequat sit amet semper et, laoreet eget risus. Cras mattis urna et porttitor lacinia.'
+    format: restricted_html
+    processed: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget dui vel ipsum mollis malesuada eu vel erat. Suspendisse eget facilisis neque. Quisque vulputate sit amet arcu in accumsan. Quisque tincidunt neque a hendrerit consectetur. Nullam semper mi vitae augue rutrum, sed suscipit metus semper. Vivamus ullamcorper augue eu odio rutrum accumsan. Proin bibendum, dolor nec tristique suscipit, magna ligula dapibus risus, id tincidunt erat purus eu eros. Etiam feugiat leo nec tellus gravida, porttitor fringilla massa imperdiet. Aenean quis urna vitae risus tincidunt maximus id eget eros. Nunc vitae mi ornare, consequat ligula a, semper metus. Nulla eget urna orci. Integer feugiat enim in accumsan elementum. In accumsan ante sit amet lacus tincidunt, a molestie lacus consequat. Proin rutrum commodo arcu eu imperdiet. Mauris felis lorem, consequat sit amet semper et, laoreet eget risus. Cras mattis urna et porttitor lacinia.</p>\n"
+    summary: ''
+    summary_processed: ''
+field_candidate_email:
+  -
+    value: jonathan.maerckaert@icgeer.be
+field_candidate_job:
+  -
+    value: Indépendant
+field_candidate_lastname:
+  -
+    value: Jonathan
+field_candidate_name:
+  -
+    value: Maerckaert
+field_candidate_photo: {  }
+field_candidate_position:
+  -
+    value: '11'
+field_candidate_statut:
+  -
+    value: Célibataire
+field_candidate_telephone:
+  -
+    value: '0475722884'
+field_candidate_town:
+  -
+    target_type: taxonomy_term
+    target_uuid: 51b3709e-18d2-4f86-a1e4-5119d04cdcdc
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.0d086afd-1f55-430a-b376-72659966f44f
+      - user.user.0d086afd-1f55-430a-b376-72659966f44f
+    taxonomy_term:
+      - taxonomy_term.towns.51b3709e-18d2-4f86-a1e4-5119d04cdcdc

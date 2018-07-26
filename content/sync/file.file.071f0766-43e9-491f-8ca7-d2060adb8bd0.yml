@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: 071f0766-43e9-491f-8ca7-d2060adb8bd0
+langcode:
+  -
+    value: fr
+uid:
+  -
+    target_type: user
+    target_uuid: 0d086afd-1f55-430a-b376-72659966f44f
+filename:
+  -
+    value: flexslider-sample-2.JPG
+uri:
+  -
+    value: 'public://flexslider-sample-2_0.JPG'
+    url: /sites/default/files/flexslider-sample-2_0.JPG
+filemime:
+  -
+    value: image/jpeg
+filesize:
+  -
+    value: 1099304
+status:
+  -
+    value: true
+created:
+  -
+    value: '2018-04-14T08:50:40+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2018-04-14T08:50:40+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.0d086afd-1f55-430a-b376-72659966f44f

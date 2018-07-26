@@ -1,0 +1,42 @@
+uuid:
+  -
+    value: 55689036-d330-4353-9919-1db8fe8928f8
+langcode:
+  -
+    value: fr
+vid:
+  -
+    target_id: languages_supported
+    target_type: taxonomy_vocabulary
+    target_uuid: 7c714090-9851-4def-85c8-bed1461313e8
+name:
+  -
+    value: telugu
+description:
+  -
+    value: null
+    format: null
+    processed: ''
+weight:
+  -
+    value: 0
+parent: {  }
+changed:
+  -
+    value: '2018-04-13T15:03:23+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+metatag:
+  value:
+    title: 'telugu | ICGeer'
+    canonical_url: 'http://geer-ic.loc/taxonomy/term/18'
+path:
+  -
+    alias: null
+    pid: null
+    langcode: fr
+_content_sync:
+  entity_type: taxonomy_term
+  entity_dependencies: {  }

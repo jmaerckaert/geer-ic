@@ -157,17 +157,17 @@ handlers:
     settings:
       states:
         - completed
-      to_mail: default
+      to_mail: _default
       to_options: {  }
       cc_mail: ''
       cc_options: {  }
       bcc_mail: ''
       bcc_options: {  }
-      from_mail: default
+      from_mail: _default
       from_options: {  }
-      from_name: default
-      subject: default
-      body: default
+      from_name: _default
+      subject: _default
+      body: _default
       excluded_elements: {  }
       ignore_access: false
       exclude_empty: true
@@ -190,17 +190,17 @@ handlers:
     settings:
       states:
         - completed
-      to_mail: default
+      to_mail: _default
       to_options: {  }
       cc_mail: ''
       cc_options: {  }
       bcc_mail: ''
       bcc_options: {  }
-      from_mail: default
+      from_mail: _default
       from_options: {  }
-      from_name: default
-      subject: default
-      body: default
+      from_name: _default
+      subject: _default
+      body: _default
       excluded_elements: {  }
       ignore_access: 0
       exclude_empty: true

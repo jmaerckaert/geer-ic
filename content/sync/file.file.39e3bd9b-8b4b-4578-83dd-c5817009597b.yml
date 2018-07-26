@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: 39e3bd9b-8b4b-4578-83dd-c5817009597b
+langcode:
+  -
+    value: fr
+uid:
+  -
+    target_type: user
+    target_uuid: 0d086afd-1f55-430a-b376-72659966f44f
+filename:
+  -
+    value: gen2B92.tmp.jpeg
+uri:
+  -
+    value: 'public://2018-04/gen2B92.tmp.jpeg'
+    url: /sites/default/files/2018-04/gen2B92.tmp.jpeg
+filemime:
+  -
+    value: image/jpeg
+filesize:
+  -
+    value: 9561
+status:
+  -
+    value: true
+created:
+  -
+    value: '2018-04-13T13:25:31+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2018-04-13T13:25:31+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.0d086afd-1f55-430a-b376-72659966f44f

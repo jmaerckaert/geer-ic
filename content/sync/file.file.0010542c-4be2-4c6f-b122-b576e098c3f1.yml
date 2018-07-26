@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: 0010542c-4be2-4c6f-b122-b576e098c3f1
+langcode:
+  -
+    value: fr
+uid:
+  -
+    target_type: user
+    target_uuid: 0d086afd-1f55-430a-b376-72659966f44f
+filename:
+  -
+    value: photo_default.jpg
+uri:
+  -
+    value: 'public://2018-04/photo_default.jpg'
+    url: /sites/default/files/2018-04/photo_default.jpg
+filemime:
+  -
+    value: image/jpeg
+filesize:
+  -
+    value: 5323
+status:
+  -
+    value: true
+created:
+  -
+    value: '2018-04-11T18:34:14+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2018-04-11T18:34:43+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.0d086afd-1f55-430a-b376-72659966f44f

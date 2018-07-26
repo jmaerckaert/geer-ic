@@ -1,0 +1,62 @@
+serial:
+  -
+    value: 6
+uuid:
+  -
+    value: e9a987d9-3061-4452-8274-902a36724c5c
+token:
+  -
+    value: dCiPimc2cl_0Z0IYgnYbSijMc8xfA6KwReH0jrhNqxA
+uri:
+  -
+    value: '/form/contact-candidate?candidate=3'
+created:
+  -
+    value: '2018-04-15T12:28:16+00:00'
+    format: 'Y-m-d\TH:i:sP'
+completed:
+  -
+    value: '2018-04-15T12:28:16+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2018-04-15T12:28:16+00:00'
+    format: 'Y-m-d\TH:i:sP'
+in_draft:
+  -
+    value: false
+current_page: {  }
+remote_addr:
+  -
+    value: 127.0.0.1
+uid:
+  -
+    target_type: user
+    target_uuid: 0d086afd-1f55-430a-b376-72659966f44f
+langcode:
+  -
+    value: fr
+webform_id:
+  -
+    target_id: contact_candidate
+    target_type: webform
+    target_uuid: ece9ad9a-50f3-43f4-bce6-551d7ebf6924
+    url: /form/contact-candidate
+entity_type: {  }
+entity_id: {  }
+locked:
+  -
+    value: false
+sticky:
+  -
+    value: false
+notes: {  }
+metatag:
+  value:
+    title: '| ICGeer'
+    canonical_url: 'http://geer-ic.loc/batch'
+_content_sync:
+  entity_type: webform_submission
+  entity_dependencies:
+    user:
+      - user.user.0d086afd-1f55-430a-b376-72659966f44f

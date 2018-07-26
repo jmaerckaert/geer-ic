@@ -1,0 +1,42 @@
+uuid:
+  -
+    value: b1cc56bc-1202-4c5d-8061-4571d2fa9d2f
+langcode:
+  -
+    value: fr
+vid:
+  -
+    target_id: font_classification
+    target_type: taxonomy_vocabulary
+    target_uuid: 02b8ff6a-4810-4815-9726-5a24f51d1852
+name:
+  -
+    value: display
+description:
+  -
+    value: null
+    format: null
+    processed: ''
+weight:
+  -
+    value: 0
+parent: {  }
+changed:
+  -
+    value: '2018-04-13T15:02:50+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+metatag:
+  value:
+    title: 'display | ICGeer'
+    canonical_url: 'http://geer-ic.loc/taxonomy/term/2'
+path:
+  -
+    alias: null
+    pid: null
+    langcode: fr
+_content_sync:
+  entity_type: taxonomy_term
+  entity_dependencies: {  }

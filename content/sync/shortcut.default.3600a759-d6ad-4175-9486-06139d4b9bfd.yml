@@ -1,0 +1,32 @@
+uuid:
+  -
+    value: 3600a759-d6ad-4175-9486-06139d4b9bfd
+langcode:
+  -
+    value: fr
+shortcut_set:
+  -
+    target_id: default
+    target_type: shortcut_set
+    target_uuid: 3adec91c-398f-42c9-995c-7e5a129d1a73
+title:
+  -
+    value: 'Add content'
+weight:
+  -
+    value: -20
+link:
+  -
+    uri: 'internal:/node/add'
+    title: null
+    options: {  }
+default_langcode:
+  -
+    value: true
+metatag:
+  value:
+    title: '| ICGeer'
+    canonical_url: 'http://geer-ic.loc/batch'
+_content_sync:
+  entity_type: shortcut
+  entity_dependencies: {  }

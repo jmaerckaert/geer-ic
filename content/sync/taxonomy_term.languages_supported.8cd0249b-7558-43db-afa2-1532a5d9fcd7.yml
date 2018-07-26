@@ -1,0 +1,42 @@
+uuid:
+  -
+    value: 8cd0249b-7558-43db-afa2-1532a5d9fcd7
+langcode:
+  -
+    value: fr
+vid:
+  -
+    target_id: languages_supported
+    target_type: taxonomy_vocabulary
+    target_uuid: 7c714090-9851-4def-85c8-bed1461313e8
+name:
+  -
+    value: sinhala
+description:
+  -
+    value: null
+    format: null
+    processed: ''
+weight:
+  -
+    value: 0
+parent: {  }
+changed:
+  -
+    value: '2018-04-13T15:09:21+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+metatag:
+  value:
+    title: 'sinhala | ICGeer'
+    canonical_url: 'http://geer-ic.loc/taxonomy/term/29'
+path:
+  -
+    alias: null
+    pid: null
+    langcode: fr
+_content_sync:
+  entity_type: taxonomy_term
+  entity_dependencies: {  }

@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: 095d11af-8ec0-4cea-9536-45bb06ed4ce9
+langcode:
+  -
+    value: fr
+uid:
+  -
+    target_type: user
+    target_uuid: 0d086afd-1f55-430a-b376-72659966f44f
+filename:
+  -
+    value: med_1480094296_image.jpg
+uri:
+  -
+    value: 'public://2018-04/med_1480094296_image.jpg'
+    url: /sites/default/files/2018-04/med_1480094296_image.jpg
+filemime:
+  -
+    value: image/jpeg
+filesize:
+  -
+    value: 59360
+status:
+  -
+    value: true
+created:
+  -
+    value: '2018-04-07T11:10:15+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2018-04-07T11:14:25+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.0d086afd-1f55-430a-b376-72659966f44f

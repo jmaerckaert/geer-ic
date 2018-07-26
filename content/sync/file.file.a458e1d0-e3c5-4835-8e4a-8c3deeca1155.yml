@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: a458e1d0-e3c5-4835-8e4a-8c3deeca1155
+langcode:
+  -
+    value: fr
+uid:
+  -
+    target_type: user
+    target_uuid: 0d086afd-1f55-430a-b376-72659966f44f
+filename:
+  -
+    value: gen2F75.tmp.jpg
+uri:
+  -
+    value: 'public://2018-04/gen2F75.tmp.jpg'
+    url: /sites/default/files/2018-04/gen2F75.tmp.jpg
+filemime:
+  -
+    value: image/jpeg
+filesize:
+  -
+    value: 9921
+status:
+  -
+    value: true
+created:
+  -
+    value: '2018-04-13T13:25:31+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2018-04-13T13:25:31+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.0d086afd-1f55-430a-b376-72659966f44f

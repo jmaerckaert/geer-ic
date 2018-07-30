@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.project.body
     - field.field.node.project.field_project_pictures
+    - field.field.node.project.field_project_summary
     - node.type.project
   module:
     - image
@@ -30,6 +31,13 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: image
+    region: content
+  field_project_summary:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
     region: content
   links:
     weight: 100

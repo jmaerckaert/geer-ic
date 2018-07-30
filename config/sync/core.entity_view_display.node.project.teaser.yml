@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.project.body
     - field.field.node.project.field_project_pictures
+    - field.field.node.project.field_project_summary
     - image.style.medium
     - node.type.project
   module:
@@ -46,9 +47,8 @@ third_party_settings:
         - field_project_pictures
       right:
         - node_title
-        - body
+        - field_project_summary
         - 'dynamic_token_field:node-links_button'
-        - addtoany
     fields:
       'dynamic_token_field:node-links_button':
         plugin_id: 'dynamic_token_field:node-links_button'
@@ -74,16 +74,6 @@ content:
     region: right
     settings: {  }
     third_party_settings: {  }
-  body:
-    label: hidden
-    type: text_summary_or_trimmed
-    weight: 2
-    settings:
-      trim_length: 400
-    third_party_settings:
-      field_formatter_class:
-        class: ''
-    region: right
   field_project_pictures:
     type: image
     weight: 0
@@ -97,6 +87,14 @@ content:
         class: ''
       ds:
         ds_limit: '1'
+  field_project_summary:
+    type: text_default
+    weight: 2
+    region: right
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
 hidden:
+  body: true
   langcode: true
   links: true

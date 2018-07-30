@@ -1,0 +1,21 @@
+uuid: 556984be-425c-46dd-a130-ddfb1d2f095c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_project_summary
+    - node.type.project
+  module:
+    - text
+id: node.project.field_project_summary
+field_name: field_project_summary
+entity_type: node
+bundle: project
+label: Résumé
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -123,14 +123,15 @@ index f68c458..4950a68 100644
  
      $lang = $languageManager->getCurrentLanguage()->getId();
      $this->lang = 'en';
--    $langs = ['en', 'ru'];
-+    $langs = ['en', 'ru', 'fr'];
+-    $langs = ['en', 'ru', 'de'];
++    $langs = ['en', 'ru', 'de', 'fr'];
      if (in_array($lang, $langs)) {
        $this->lang = $lang;
      }
 @@ -74,6 +74,7 @@ class PagePolicy extends ControllerBase {
      $titles = [
-       'en' => $this->t('Privacy and Cookie policy'),
+       'en' => $title,
+       'de' => $title,
        'ru' => $this->t('Agreement on the use of personal data'),
 +      'fr' => $this->t('Politique de confidentialité et de cookies'),
      ];

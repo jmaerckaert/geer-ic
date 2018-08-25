@@ -94,7 +94,7 @@
         "drupal/login_emailusername": "^1.1",
         "drupal/media_watermark": "^1.0@alpha",
         "drupal/menu_item_role_access": "^1.0@alpha",
-        "drupal/metatag": "^1.5",
+        "drupal/metatag": "1.5",
         "drupal/pathauto": "^1.1",
         "drupal/redirect": "^1.1",
         "drupal/refreshless": "^1.0@alpha",

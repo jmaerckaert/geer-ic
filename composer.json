@@ -68,6 +68,7 @@
         "drupal/admin_toolbar": "^1.23",
         "drupal/advagg": "^3.5",
         "drupal/auto_entitylabel": "^2.1@beta",
+        "drupal/backstop_generator": "^1.0@beta",
         "drupal/backup_migrate": "^4.0",
         "drupal/better_exposed_filters": "^3.0@alpha",
         "drupal/bootstrap": "^3.11",

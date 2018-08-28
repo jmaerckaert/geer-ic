@@ -1,0 +1,30 @@
+viewports:
+  Mobile: Mobile
+  Tablet: Tablet
+  HD: HD
+  HD+: HD+
+  UHD: UHD
+pre_defined_pages_table:
+  d96176c1-abf7-416a-ad04-33a152fcde82:
+    page: null
+    actions:
+      remove_page: 'Remove one'
+  71675ad7-5ace-4b7a-a40d-0cdeea8f5a4e:
+    page: '13'
+    actions:
+      remove_page: 'Remove one'
+  e29cbee6-e665-4650-8f64-13a84cc260ee:
+    page: '5'
+    actions:
+      remove_page: 'Remove one'
+actions:
+  add_page: 'Add one more'
+additional_random_pages: '50'
+submit: 'Save and View'
+form_build_id: form-obNacZ6XR9W3WJ1A0_yrryB0tLm7MWl9HNxYO3AWYC8
+form_token: YG2hO3X48SLLzxE4HjO9TGwcZqL-I9P_EW9wv1De-lo
+form_id: backstop_configuration_form
+op: 'Save and View'
+_core:
+  default_config_hash: UMgANisPcvOUC5jMJV1U5FJDYxkI9LSC4tgTESnvpnM
+langcode: fr

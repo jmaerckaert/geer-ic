@@ -6,10 +6,13 @@ id: config_development
 label: Development
 folder: ../config/dev
 module:
+  backstop_generator: 0
   devel: 0
   devel_generate: 0
   ds_devel: 0
+  hal: 0
   kint: 0
+  rest: 0
   seo_checklist: 0
   webform_devel: 0
   webprofiler: 0

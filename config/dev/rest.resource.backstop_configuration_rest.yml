@@ -1,0 +1,22 @@
+uuid: 3bcd7ec3-9e93-4146-8f6a-43111a1963ec
+langcode: fr
+status: true
+dependencies:
+  module:
+    - backstop_generator
+    - hal
+    - serialization
+    - user
+_core:
+  default_config_hash: TrtzBlVBQsa-vfWQ0akWuxCq8JR6OX6XbM5i40OflSk
+id: backstop_configuration_rest
+plugin_id: backstop_configuration_rest
+granularity: method
+configuration:
+  GET:
+    supported_formats:
+      - hal_json
+      - json
+      - xml
+    supported_auth:
+      - cookie

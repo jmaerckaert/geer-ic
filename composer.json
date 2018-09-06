@@ -79,7 +79,7 @@
         "drupal/console": "^1.0.2",
         "drupal/content_moderation_notifications": "^3.0@RC",
         "drupal/content_sync": "2.x-dev",
-        "drupal/core": "~8.5.1",
+        "drupal/core": "~8.6",
         "drupal/devel": "^1.2",
         "drupal/drush_language": "^1.0@RC",
         "drupal/ds": "^3.1",
@@ -123,7 +123,7 @@
         "webmozart/path-util": "^2.3"
     },
     "require-dev": {
-        "webflo/drupal-core-require-dev": "~8.5.1"
+        "webflo/drupal-core-require-dev": "~8.6"
     },
     "conflict": {
         "drupal/drupal": "*"

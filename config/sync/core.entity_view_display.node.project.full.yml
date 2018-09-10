@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.full
     - field.field.node.project.body
     - field.field.node.project.field_project_pictures
+    - field.field.node.project.field_project_summary
     - image.style.large
     - node.type.project
   module:
@@ -98,4 +99,5 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_project_summary: true
   langcode: true

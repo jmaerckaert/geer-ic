@@ -87,14 +87,13 @@ third_party_settings:
         - field_candidate_email
         - 'dynamic_token_field:node-candidate_form'
       right:
+        - field_candidat_mandats
         - field_candidate_formation
         - field_candidate_job
         - field_candidatre_age
         - field_candidate_statut
-        - field_candidat_mandats
       bottom:
         - body
-        - addtoany
     fields:
       'dynamic_token_field:node-candidate_form':
         plugin_id: 'dynamic_token_field:node-candidate_form'
@@ -120,7 +119,7 @@ content:
     region: bottom
   field_candidat_mandats:
     type: string
-    weight: 11
+    weight: 7
     region: right
     label: above
     settings:
@@ -142,7 +141,7 @@ content:
     region: middle
   field_candidate_formation:
     type: string
-    weight: 7
+    weight: 8
     region: right
     label: above
     settings:
@@ -150,7 +149,7 @@ content:
     third_party_settings: {  }
   field_candidate_job:
     type: string
-    weight: 8
+    weight: 9
     region: right
     label: above
     settings:
@@ -176,9 +175,9 @@ content:
     third_party_settings: {  }
   field_candidate_statut:
     type: string
-    weight: 10
+    weight: 11
     region: right
-    label: inline
+    label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -201,7 +200,7 @@ content:
     third_party_settings: {  }
   field_candidatre_age:
     type: number_integer
-    weight: 9
+    weight: 10
     region: right
     label: inline
     settings:

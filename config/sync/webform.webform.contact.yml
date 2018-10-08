@@ -190,7 +190,7 @@ handlers:
       return_path: ''
       sender_mail: ''
       sender_name: ''
-      theme: ''
+      theme_name: ''
   email_notification:
     id: email
     label: 'Notification par courriel'
@@ -224,7 +224,7 @@ handlers:
       return_path: ''
       sender_mail: ''
       sender_name: ''
-      theme: ''
+      theme_name: ''
 uuid: 034b5bda-8bcc-4ab0-99c9-fd9c4f32bcb8
 _core:
   default_config_hash: 54q-eZLQ0xY3g9yFexLIn97Y8F_sByRhO4ima2pMmn4

@@ -1,0 +1,22 @@
+Index: /web/modules/contrib/ds/src/Plugin/views/Entity/Render/DefaultLanguageRenderer.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- /web/modules/contrib/ds/src/Plugin/views/Entity/Render/DefaultLanguageRenderer.php	(revision )
++++ /web/modules/contrib/ds/src/Plugin/views/Entity/Render/DefaultLanguageRenderer.php	(revision )
+@@ -14,13 +14,11 @@
+    *
+    * @param \Drupal\views\ResultRow $row
+    *   The result row.
+-   * @param $relationship
+-   *   The relationship.
+    *
+    * @return string
+    *   A language code.
+    */
+-  public function getLangcode(ResultRow $row, $relationship = NULL) {
++  public function getLangcode(ResultRow $row) {
+     return $row->_entity->getUntranslated()->language()->getId();
+   }
+ 

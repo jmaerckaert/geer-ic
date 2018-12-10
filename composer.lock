@@ -6067,12 +6067,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jmaerckaert/icgeer.git",
-                "reference": "1a256de5f5dd6711510c0264b4a005166c7add71"
+                "reference": "6990ed1e659b0c868e04b2a173e72d1b210a13d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jmaerckaert/icgeer/zipball/1a256de5f5dd6711510c0264b4a005166c7add71",
-                "reference": "1a256de5f5dd6711510c0264b4a005166c7add71",
+                "url": "https://api.github.com/repos/jmaerckaert/icgeer/zipball/6990ed1e659b0c868e04b2a173e72d1b210a13d3",
+                "reference": "6990ed1e659b0c868e04b2a173e72d1b210a13d3",
                 "shasum": ""
             },
             "type": "drupal-custom-theme",
@@ -6092,7 +6092,7 @@
                 "source": "https://github.com/jmaerckaert/icgeer",
                 "issues": "https://github.com/jmaerckaert/icgeer/issues"
             },
-            "time": "2018-12-10T10:45:38+00:00"
+            "time": "2018-12-10T11:04:32+00:00"
         },
         {
             "name": "jmaerckaert/jquery.cycle",
